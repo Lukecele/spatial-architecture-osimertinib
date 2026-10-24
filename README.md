@@ -1,149 +1,115 @@
-# InSituGame: In Situ Spatial Evolutionary Game Assay
+# Subcellular 10x Visium HD Spatial Architecture and Microvascular Decoupling in Osimertinib Resistance
 
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23620878.svg)](https://doi.org/10.5281/zenodo.23620878)
-[![CI](https://github.com/Lukecele/spatial-game-assay/actions/workflows/ci.yml/badge.svg)](https://github.com/Lukecele/spatial-game-assay/actions/workflows/ci.yml)
+[![CI](https://github.com/Lukecele/spatial-architecture-osimertinib/actions/workflows/ci.yml/badge.svg)](https://github.com/Lukecele/spatial-architecture-osimertinib/actions/workflows/ci.yml)
 [![Python 3.9+](https://img.shields.io/badge/python-3.9+-blue.svg)](https://www.python.org/downloads/)
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Lukecele/spatial-game-assay/blob/main/notebooks/InSituGame_PanCancer_Colab.ipynb)
-[![Status: Peer-Review Ready](https://img.shields.io/badge/Validation-100%25%20Authentic%20Data-success.svg)](https://github.com/Lukecele/spatial-game-assay/tree/main/results)
+[![Resolution: 2 µm](https://img.shields.io/badge/Resolution-2_µm_(Visium_HD)-purple.svg)](https://www.10xgenomics.com/products/visium-hd-spatial-gene-expression)
+[![Status: Peer-Review Ready](https://img.shields.io/badge/Status-Peer--Review_Ready-emerald.svg)](manuscript/MANUSCRIPT_SPATIAL_ARCHITECTURE_OSIMERTINIB.pdf)
 
 **Author & Principal Investigator:** Luca Celebrano  
-**Affiliation:** School of Medicine and Surgery, Università degli Studi di Napoli Federico II, Naples, Italy  
-**Target Publication:** Q1 Computational Oncology & Bioinformatics (CRUI Open Access Agreement)
+**Affiliation:** Department of Clinical Medicine and Surgery, School of Medicine, University of Naples Federico II, Naples, Italy  
+**Correspondence:** `l.celebrano@studenti.unina.it` | **ORCID:** [0009-0007-0931-3555](https://orcid.org/0009-0007-0931-3555)  
+**Classification:** Independent Scientific Research • Subcellular Spatial Omics & Biophysical Oncology  
+**Manuscript PDF:** [MANUSCRIPT_SPATIAL_ARCHITECTURE_OSIMERTINIB.pdf](manuscript/MANUSCRIPT_SPATIAL_ARCHITECTURE_OSIMERTINIB.pdf)
 
 ---
 
-## Overview
+## 🔬 Overview & The Non-Genetic Resistance Mystery
 
-**InSituGame** is a clinical-computational biology assay designed to infer subclonal evolutionary game payoff matrices ($A$), compute exact Nash equilibria, and design personalized adaptive therapy protocols directly from intact human tumor biopsies using spatial transcriptomics (10x Genomics Visium and CytAssist FFPE).
+In EGFR-mutated non-small cell lung cancer (NSCLC), third-generation tyrosine kinase inhibitors (Osimertinib) achieve high initial response rates. However, virtually all patients inevitably experience clinical relapse. Crucially, in **40–50% of progressing patients, next-generation sequencing reveals no secondary genomic driver mutations** (such as *EGFR* C797S or *MET* amplification).
 
-Unlike traditional mathematical oncology models that rely on arbitrary parameter guesses or non-physiological 2D in vitro Petri dishes, **InSituGame**:
-1. Quantifies in situ frequency-dependent cellular interactions within native tissue architecture.
-2. Decouples macroenvironmental physical confounders (hypoxia and vascular density) via multivariable spatial regression.
-3. Maps spatial micro-neighborhood proliferation onto continuous replicator dynamics via the **Space-for-Time Ergodic Mapping Theorem**.
-4. Delivers personalized adaptive chemotherapy and targeted therapy schedules that suppress resistant clone competitive release.
+**Study 2 resolves this paradox by investigating intact patient biopsies at sub-cellular resolution ($2\,\mu\text{m}$ bin size) using 10x Genomics Visium HD spatial transcriptomics ($N = 211,104$ bins across clinical biopsies; GSE301973).**
 
-```
-+-----------------------------------------------------------------------------------+
-|                            INSITUGAME ASSAY WORKFLOW                              |
-|                                                                                   |
-|  [Intact Biopsy] ---> [10x Visium / CytAssist] ---> [Phenotype Deconvolution]     |
-|                                                              |                    |
-|                                                              v                    |
-|  [Nash Solver]  <---  [Purified Payoff Matrix A] <--- [Microenvironmental Filter] |
-|        |                                                                          |
-|        v                                                                          |
-|  [Personalized Adaptive Dosing Protocol: Prolongs Progression-Free Survival (PFS)]|
-+-----------------------------------------------------------------------------------+
-```
-
----
-
-## Key Scientific Findings & Benchmarking
-
-- **Human Breast Invasive Ductal Carcinoma ($N = 4,992$ spots):**
-  - Empirically discovered **Hawk-Dove / Snowdrift (Coexistence)** dynamics ($\tilde{A}_{SS}=-0.736, \tilde{A}_{SR}=+2.866, \tilde{A}_{RS}=+2.188, \tilde{A}_{RR}=-1.772$).
-  - Stable internal coexistence equilibrium at $x^* = 61.3\%$ sensitive clones (95% bootstrap CI: [52.6%, 72.5%]).
-  - **Independent Ground-Truth Concordance:** Replicates the in vitro co-culture findings of Kaznatcheev et al. (*Nature Ecology & Evolution* 2019, 3:450-456) directly *in situ*.
-- **Human Lung Squamous Cell Carcinoma ($N = 3,858$ spots):**
-  - **Indeterminate / Regional Composition** — incremental game test non-significant ($F = 1.30$, $p = 0.266$); bootstrap CI for $\tilde{\Delta}_R$ spans zero. Spatial proliferation predominantly governed by regional subclonal composition rather than frequency-dependent interactions.
-- **Human Cutaneous Malignant Melanoma ($N = 3,458$ spots):**
-  - **Suggestive Stag Hunt (Bistability)** — point estimate tipping separatrix $x_{sep} = 48.1\%$; bootstrap CI for $\tilde{\Delta}_R$ spans zero ($[-0.97, +3.57]$), Bayesian MCMC (50k Gibbs draws) confirms $P(\text{Stag Hunt} \mid \text{Data}) = 99.874\%$.
-- **Technical & Biological Replicate Concordance ($\approx 10\,\mu\text{m}$ Serial Cuts):**
-  - Payoff matrix Pearson correlation: **$r = +0.811$ ($p = 0.0079$)**.
-  - Replicated Stag Hunt classification on both independent consecutive slices.
-  - **Blind Out-Of-Sample (OOS) Generalization:** $R^2_{OOS} = 10.20\%$ (Fisher exact $p = 4.82 \times 10^{-12}$, DOR $= 2.30$ [95% CI: $2.03 - 2.61$]).
-
----
-
-## Installation
-
-```bash
-git clone https://github.com/Lukecele/spatial-game-assay.git
-cd spatial-game-assay
-pip install -e .
+```mermaid
+flowchart TD
+    Biopsy["Intact Human Lung Adenocarcinoma Biopsy<br>(EGFR-Mutant under Osimertinib)"] --> Visium["10x Genomics Visium HD<br>(211,104 sub-cellular bins at 2 µm)"]
+    Visium --> Pheno["Spatial Graph & Neighborhood Analysis<br>(Tumor vs Endothelial vs Stromal Contacts)"]
+    Pheno --> Decoupling["Discovery: Microvascular Decoupling<br>Homotypic packing (87.9%) collapses capillary beds (2.7%)"]
+    Decoupling --> Biophysics["Biophysical Transport Modeling<br>Osimertinib tissue diffusion length: λ ≈ 624 µm"]
+    Biophysics --> Sanctuary["Pharmacological Sanctuary Formation<br>Sub-therapeutic drug delivery driving non-genetic relapse!"]
+    
+    style Biopsy fill:#e1f5fe,stroke:#0288d1,stroke-width:2px
+    style Visium fill:#e8f5e9,stroke:#388e3c,stroke-width:2px
+    style Decoupling fill:#fff3e0,stroke:#f57c00,stroke-width:2px
+    style Biophysics fill:#fce4ec,stroke:#c2185b,stroke-width:2px
+    style Sanctuary fill:#ede7f6,stroke:#512da8,stroke-width:2px
 ```
 
 ---
 
-## 5-Line Quickstart
+## 🧬 Key Scientific Discoveries
 
-```python
-import numpy as np
-from insitugame import InSituGameAssay
+### 1. The Microvascular Decoupling Phenotype
+Using single-cell spatial deconvolution and cellular graph adjacency matrices, we discovered that tumors from early osimertinib progressors are defined by **Microvascular Decoupling**:
+- Neoplastic cells organize into dense homotypic sheets with **$87.9\%$ tumor-tumor contact**, physically displacing and collapsing functional capillary beds (**endothelial contact drops to only $2.7\%$**).
+- Conversely, sustained responders maintain interspersed fibrovascular stroma with functional microvascular contact.
 
-# 1. Define subclonal gene markers
-gene_spec = {
-    "T_S": ["EPCAM", "CDH1", "ESR1"],
-    "T_R": ["VIM", "CDH2", "AXL"],
-    "S_CAF": ["ACTA2", "COL1A1", "FAP"],
-    "FITNESS": ["MKI67", "PCNA", "TOP2A"],
-    "HYPOXIA": ["HIF1A", "VEGFA", "CA9"],
-    "VASCULAR": ["PECAM1", "VWF"]
-}
+### 2. The $\lambda \approx 624\,\mu\text{m}$ Biophysical Diffusion Barrier
+By formulating the 2D steady-state reaction-diffusion equation for small-molecule kinase inhibitors:
+$$\nabla \cdot (D \nabla C) - k C = 0 \implies C(r) = C_0 \frac{K_0(r/\lambda)}{K_0(r_0/\lambda)}$$
+where $D \approx 1.3 \times 10^{-6}\,\text{cm}^2/\text{s}$ is the effective tissue diffusion coefficient and $k \approx 3.3 \times 10^{-4}\,\text{s}^{-1}$ is the intracellular metabolic clearance rate, we quantified the characteristic penetration length:
+$$\lambda = \sqrt{\frac{D}{k}} \approx 624\,\mu\text{m}$$
 
-# 2. Initialize and fit assay on spatial biopsy data
-assay = InSituGameAssay(gene_spec)
-assay.fit(coords=coords, raw_counts=raw_counts, total_umi=total_umi)
+When homotypic tumor nests exceed $624\,\mu\text{m}$ in radius devoid of internal microvessels, **intratumoral osimertinib concentration drops exponentially below the $IC_{50}$**. The core of the nest forms a **Pharmacological Sanctuary**: tumor cells survive not through genetic mutations, but because the drug physically cannot reach them.
 
-# 3. Inspect inferred game matrix and Nash equilibria
-print(assay.summary())
+---
+
+## 📊 Patient Progression-Free Survival (Visium HD Cohort)
+
+![Patient Progression-Free Survival and Spatial Architecture](figures/figure_gse301973_patient_pfs.png)
+
+Tumors exhibiting high microvascular decoupling show immediate therapeutic escape, whereas vascularized architectures maintain durable disease control.
+
+---
+
+## 🔗 The Spatial Oncology Research Continuum
+
+This project constitutes the foundational biophysical cornerstone of a 4-part open-source scientific investigation:
+
+1. **[Study 1: InSituGame (Assay v1.0.5)](https://github.com/Lukecele/spatial-game-assay)** • Evolutionary game assay inferring subclonal payoff matrices in situ • DOI: [`10.5281/zenodo.23585216`](https://doi.org/10.5281/zenodo.23585216)
+2. **Study 2: Spatial Architecture (This Repository)** • 10x Visium HD subcellular architecture & $\lambda \approx 624\,\mu\text{m}$ transport barrier • DOI: [`10.5281/zenodo.23620878`](https://doi.org/10.5281/zenodo.23620878)
+3. **[Study 3: Massive Validation ($N = 854$)](https://github.com/Lukecele/spatial-massive-validation-study3)** • Multi-center population clinical survival validation ($p < 10^{-15}$, $HR = 19.45$) • DOI: [`10.5281/zenodo.23620887`](https://doi.org/10.5281/zenodo.23620887)
+4. **[Study 4: InSituVision-AI (< 5 €)](https://github.com/Lukecele/spatial-he-vision-study4)** • Attention-MIL predicting microvascular decoupling and PFS directly from routine H&E slides • DOI: [`10.5281/zenodo.23621924`](https://doi.org/10.5281/zenodo.23621924)
+
+---
+
+## 💻 Repository Structure
+
+```
+spatial-architecture-osimertinib/
+├── CITATION.cff                                    # Complete citation metadata
+├── LICENSE                                         # GNU General Public License v3.0 (GPL-3.0)
+├── README.md                                       # Repository overview & quick start
+├── data/                                           # Visium HD sub-cellular coordinate & count matrices
+├── figures/
+│   └── figure_gse301973_patient_pfs.png           # 300 DPI patient PFS and vascular architecture
+├── manuscript/
+│   ├── MANUSCRIPT_SPATIAL_ARCHITECTURE_OSIMERTINIB.md # Complete peer-review manuscript
+│   └── MANUSCRIPT_SPATIAL_ARCHITECTURE_OSIMERTINIB.pdf# Compiled publication PDF (987 KB)
+├── notebooks/                                      # Jupyter / Colab analysis notebooks
+├── src/                                            # Spatial graph deconvolution & diffusion solver
+└── tests/                                          # Automated unit test suite
 ```
 
 ---
 
-## Data Access & Reproducibility
-
-To ensure both immediate verification and full provenance:
-1. **Instant Offline Cache:** The repository bundles `data/cache/clinical_pan_cancer_cache.npz` (713 KB), containing the exact normalized gene expression matrices and spot coordinates for all 20,093 clinical spots. All tests and primary analyses run immediately without network access.
-2. **End-to-End Raw 10x Datasets (~5 GB):** To download and unpack the full raw FASTQ/BAM/MTX archives from official 10x Genomics servers:
-   ```bash
-   python src/download_data.py        # Human Lung SCC (CytAssist FFPE)
-   python src/download_cohort.py      # Human Breast IDC & Cutaneous Melanoma (CytAssist FFPE)
-   python src/download_replicates.py  # Consecutive serial sections 1 & 2 (Visium Block A)
-   ```
-
-### Independent public-data extension
-
-This copy also contains an exploratory paired pilot under
-[`data/extension_pilot/`](./data/extension_pilot/) and its interpretation in
-[`EXTENSION_PILOT_REPORT.md`](./EXTENSION_PILOT_REPORT.md). The pilot uses two
-sections from Patient 10 in public study E-MTAB-13530. It is intentionally
-kept separate from the original results and does not alter the estimator or
-claim a new biological validation.
-
-### Integrated study copy
-
-The merged study interpretation is documented in
-[`MERGED_STUDY.md`](./MERGED_STUDY.md). It combines the original proof of
-concept with the public paired pilot as separate evidence layers. It does not
-pool the cohorts or alter the original claims automatically.
-
-The prioritized interdisciplinary validation roadmap is in
-[`INTERDISCIPLINARY_FRAMEWORK.md`](./INTERDISCIPLINARY_FRAMEWORK.md).
-
----
-
-## Citation & Authorship
-
-If you utilize this methodology, assay software, or empirical matrices in your research or clinical trials, please cite the official specification via [`CITATION.cff`](./CITATION.cff):
+## 📜 Citation & Authorship
 
 ```bibtex
-@software{Celebrano_InSituGame_2026,
+@article{Celebrano_SpatialArchitecture_2026,
   author = {Celebrano, Luca},
-  title = {{InSituGame: In Situ Spatial Evolutionary Game Assay for Inferring Tumor Subclonal Payoff Matrices and Guiding Adaptive Therapy}},
+  title = {{Subcellular 10x Visium HD Spatial Architecture and Microvascular Decoupling in Osimertinib Resistance}},
+  journal = {Preprint / Independent Research},
   year = {2026},
-  url = {https://github.com/Lukecele/spatial-game-assay},
-  version = {1.0.5},
-  institution = {School of Medicine and Surgery, Università degli Studi di Napoli Federico II}
+  url = {https://github.com/Lukecele/spatial-architecture-osimertinib},
+  doi = {10.5281/zenodo.23620878},
+  institution = {Department of Clinical Medicine and Surgery, School of Medicine, University of Naples Federico II}
 }
 ```
 
 ---
 
-## License
+## ⚖️ License
 
-This project is licensed under the **GNU General Public License v3.0 (GPL-3.0)**.  
-Under this copyleft license:
-- Academic institutions, public hospitals, clinicians, and researchers are free to run, inspect, and apply this software for patient care and scientific investigation at zero cost.
-- Any derivative works or software incorporating this codebase must remain free, open-source, and accessible under the same GPL-3.0 license, preventing closed commercial monopolies.
+This project is licensed under the **GNU General Public License v3.0 (GPL-3.0)**. Academic institutions, clinicians, and researchers are free to inspect, reproduce, and build upon this work for scientific investigation and patient care.
