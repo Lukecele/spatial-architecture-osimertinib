@@ -5,7 +5,7 @@
 $^{1}$Department of Clinical Medicine and Surgery, School of Medicine, University of Naples Federico II, Via Sergio Pansini 5, 80131 Naples, Italy  
 $^*$Correspondence: `l.celebrano@studenti.unina.it` | ORCID: [0009-0007-0931-3555](https://orcid.org/0009-0007-0931-3555)  
 **Classification:** Independent Scientific Research • Spatial Computational Oncology & Clinical Pathophysiology  
-**Repository:** [https://github.com/Lukecele/spatial-game-assay](https://github.com/Lukecele/spatial-game-assay) • **DOI (Zenodo Archive):** [10.5281/zenodo.23585216](https://doi.org/10.5281/zenodo.23585216)
+**Repository:** [https://github.com/Lukecele/spatial-architecture-osimertinib](https://github.com/Lukecele/spatial-architecture-osimertinib) • **DOI (Zenodo Archive):** [10.5281/zenodo.23620878](https://doi.org/10.5281/zenodo.23620878)
 
 ---
 
@@ -330,7 +330,7 @@ The complete software environment, analytical pipelines, data loaders, and regre
 - **Spatial Transcriptomics Data:** GSE301973 (Visium HD NSCLC under osimertinib) is publicly available on NCBI GEO ([https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE301973](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE301973)). E-MTAB-13530 (Paired NSCLC tumor and normal adjacent tissue) is publicly available on EMBL-EBI BioStudies/ArrayExpress ([https://www.ebi.ac.uk/biostudies/arrayexpress/studies/E-MTAB-13530](https://www.ebi.ac.uk/biostudies/arrayexpress/studies/E-MTAB-13530)).
 - **Pharmacogenomics Data:** GDSC2 drug response data are publicly accessible at the Genomics of Drug Sensitivity in Cancer portal ([https://www.cancerrxgene.org/](https://www.cancerrxgene.org/)).
 - **Source Code & Pipelines:** All analytical code, spatial graph builders, biophysical transport solvers, and unit tests are open source under the GNU General Public License v3.0 at GitHub: [https://github.com/Lukecele/spatial-game-assay](https://github.com/Lukecele/spatial-game-assay).
-- **Archival DOI:** A permanent citable snapshot of the codebase and analytical artifacts is deposited on Zenodo: [https://doi.org/10.5281/zenodo.23585216](https://doi.org/10.5281/zenodo.23585216).
+- **Archival DOI:** A permanent citable snapshot of the codebase and analytical artifacts is deposited on Zenodo: [https://doi.org/10.5281/zenodo.23620878](https://doi.org/10.5281/zenodo.23620878).
 
 ---
 

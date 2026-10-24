@@ -1,10 +1,11 @@
 cff-version: 1.2.0
 message: "If you use this subcellular spatial transcriptomics dataset, biophysical transport model, or code in your research, please cite it as below."
 title: "Subcellular Spatial Architecture and Vascular Decoupling Predict Progression-Free Survival Under Osimertinib in EGFR-Mutant Non-Small Cell Lung Cancer"
-version: 2.0.0
+version: 1.0.0
 date-released: 2026-10-24
-url: "https://github.com/Lukecele/spatial-game-assay"
-repository-code: "https://github.com/Lukecele/spatial-game-assay"
+doi: "10.5281/zenodo.23620878"
+url: "https://github.com/Lukecele/spatial-architecture-osimertinib"
+repository-code: "https://github.com/Lukecele/spatial-architecture-osimertinib"
 license: GPL-3.0-or-later
 keywords:
   - "spatial transcriptomics"
