@@ -1,0 +1,5 @@
+Patient_ID,Slide,Sample_Position,PFS_Months,PFS_Group,Total_Subcellular_Bins,Tumor_Bins,Tumor_Purity_Pct,Homotypic_Tumor_Contact_Pct,Endothelial_Contact_Pct,Stromal_Contact_Pct,Immune_Contact_Pct,Dominant_WHO_Pattern
+s1_PFS_69,A,Left,69.0,long_PFS,14605,3655,25.03,60.96,22.93,1.96,11.65,Lepidic / Acinar-predominant
+s2_PFS_22,A,Right,22.0,long_PFS,31056,9327,30.03,67.69,12.63,4.77,11.47,Lepidic / Acinar-predominant
+s3_PFS_15,C,Left,15.0,short_PFS,60507,46865,77.45,87.86,2.73,3.5,5.79,Solid / Micropapillary-predominant
+s4_PFS_12,C,Right,12.0,short_PFS,105123,37073,35.27,64.03,21.84,4.48,8.0,Solid / Micropapillary-predominant

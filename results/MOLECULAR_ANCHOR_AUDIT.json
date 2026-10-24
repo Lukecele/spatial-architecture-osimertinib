@@ -1,0 +1,55 @@
+{
+  "input": "/home/luca/Scrivania/tutti i materiali/spatial-game-assay-study-merged/data/cache/clinical_pan_cancer_cache.npz",
+  "measured_data_type": "cached gene-level spatial expression and coordinates; no microRNA counts and no methylome/CpG matrix",
+  "cohort_feature_counts": {
+    "breast": 22,
+    "melanoma": 20,
+    "lung": 20
+  },
+  "anchors": {
+    "melanoma_MITF_APAF1_resistance": {
+      "cohort": "melanoma",
+      "source": "Carotenuto et al.; MITF/APAF-1 resistance axis",
+      "required_features": [
+        "MITF",
+        "APAF1"
+      ],
+      "present_features": [
+        "MITF"
+      ],
+      "missing_features": [
+        "APAF1"
+      ],
+      "status": "not identifiable from current cached spatial matrix"
+    },
+    "PDAC_miR1307_CLIC5_FOLFIRINOX": {
+      "cohort": null,
+      "source": "Carotenuto et al.; miR-1307 and FOLFIRINOX response",
+      "required_features": [
+        "MIR1307",
+        "CLIC5"
+      ],
+      "present_features": [],
+      "missing_features": [
+        "MIR1307",
+        "CLIC5"
+      ],
+      "status": "not identifiable from current cached spatial matrix"
+    },
+    "biliary_miR181_SIRT1_drug_response": {
+      "cohort": null,
+      "source": "Carotenuto et al.; miR-181/SIRT1 drug response",
+      "required_features": [
+        "MIR181A1",
+        "SIRT1"
+      ],
+      "present_features": [],
+      "missing_features": [
+        "MIR181A1",
+        "SIRT1"
+      ],
+      "status": "not identifiable from current cached spatial matrix"
+    }
+  },
+  "current_action": "Do not claim microRNA or methylome validation. Use the available melanoma transcript markers only as exploratory state descriptors; obtain matched miRNA/methylome or perturbation data before using the published anchors mechanistically."
+}

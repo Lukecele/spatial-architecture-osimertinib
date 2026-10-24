@@ -1,0 +1,10 @@
+Parameter_Category,Parameter_Name,Symbol,Empirical_Value,Unit,Source_Reference,Pathophysiological_Relevance
+Pharmacogenomics,Osimertinib IC50 (EGFR-mut),IC50,12.4,nM,"GDSC2 (PC-9, HCC827)",Mean half-maximal inhibitory concentration in vitro
+Pharmacogenomics,Subclonal Eradication Threshold,C_kill,50.0,nM,GDSC2 / Literature,Concentration achieving 99% apoptosis in persister clones
+Pharmacokinetics,Peak Steady-State Plasma Level,C_total,500.0,nM,FLAURA Clinical Trial (80mg),Total steady-state systemic peak concentration
+Pharmacokinetics,Unbound Free Plasma Level,C_free,62.5,nM,Clinical PK (90% protein bound),Effective unbound concentration entering tumor interstitium
+Biophysical Transport,Diffusion Coefficient in Stroma,D,1.30e-6,cm^2 / s,Small Molecule Extracellular Matrix,Governs passive non-convective diffusion rate
+Biophysical Transport,Cellular Internalization / Clearance,k_uptake,3.34e-4,s^-1,In Vitro TKI Kinetics,Rate of cellular uptake and metabolic degradation
+Biophysical Transport,Effective Diffusion Penetration Length,lambda,624.1,um,Analytical Helmholtz sqrt(D/k),Distance over which interstitial concentration drops by 1/e
+Histopathology,Inter-capillary Distance (Lepidic),d_lepidic,< 50.0,um,AP 2-FAST (Alveolar Septa),Ensures C(x) >> IC50 throughout the lesion (PFS 45-69 mo)
+Histopathology,Inter-capillary Distance (Solid),d_solid,400.0 - 700.0,um,AP 2-FAST (Confluent Sheets),"C(x) < IC50 in core sanctuary, fueling early relapse (PFS 12-15 mo)"

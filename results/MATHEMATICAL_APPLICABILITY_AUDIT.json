@@ -1,0 +1,156 @@
+{
+  "purpose": "Identifiable mathematical diagnostics; not causal or temporal validation",
+  "methods": {
+    "identifiable_now": {
+      "pair_correlation_and_Ripley_K": "spatial clustering and interaction scale",
+      "graph_Laplacian": "low-frequency tissue geometry and smoothness",
+      "truncated_spectral_zeta": "descriptive summary of the graph spectrum",
+      "conditional_information": "only with careful permutation and bias control",
+      "hierarchical_bootstrap": "patient-level uncertainty when patients exist"
+    },
+    "requires_new_data": {
+      "Z_transform": "requires repeated measurements or a discrete time series",
+      "Koopman_or_SDE": "requires observed transitions over time",
+      "Pontryagin_control": "requires intervention response and a calibrated state model",
+      "genetic_selection": "requires mutation, CNV, lineage, or matched single-cell data"
+    },
+    "not_a_valid_current_claim": {
+      "Riemann_zeta": "no biological observable or null hypothesis is supplied by the snapshot",
+      "quantum_or_relativistic_models": "no measured phenomenon would distinguish them here",
+      "Millennium_prize_analogies": "mathematical prestige does not identify biological parameters"
+    }
+  },
+  "cohorts": {
+    "breast": {
+      "n_nodes": 4992,
+      "n_edges": 15227,
+      "n_connected_components": 1,
+      "k": 6,
+      "mean_degree": 6.100560897435898,
+      "low_frequency_eigenvalues": [
+        0.0,
+        0.0005424598924513656,
+        0.000627884063335147,
+        0.0012174111470467056,
+        0.0021684319815104517,
+        0.0024942761356989964,
+        0.0028758949474831617,
+        0.0031872821261945514,
+        0.004863271767914185,
+        0.004878045892663607,
+        0.0055652828448184205,
+        0.005641237805326532,
+        0.00641028148195677,
+        0.007634328775115051,
+        0.008148887843415073,
+        0.008658858735237245,
+        0.009497956367384397,
+        0.009821736659526535,
+        0.010838204162245057,
+        0.010934772988005884,
+        0.011500165931021673,
+        0.012700847027951202,
+        0.013505177906914426,
+        0.014435112321655879,
+        0.014795027828851316
+      ],
+      "truncated_spectral_zeta": {
+        "1": 7841.251533145377,
+        "2": 7487178.6643164875
+      },
+      "truncated_spectral_entropy": 2.967373132944066,
+      "phenotype_dirichlet_energy": 0.02787721073931648,
+      "phenotype_variance": 0.039303090423345566,
+      "phenotype_moran_like": 0.7092885532854762
+    },
+    "melanoma": {
+      "n_nodes": 3458,
+      "n_edges": 10785,
+      "n_connected_components": 2,
+      "k": 6,
+      "mean_degree": 6.237709658762291,
+      "low_frequency_eigenvalues": [
+        0.0,
+        0.0,
+        0.0006079635301397161,
+        0.0010342336453065416,
+        0.001802874727091,
+        0.002344248390001346,
+        0.003553976583847065,
+        0.003885240634742007,
+        0.0046700125000029,
+        0.00544388773452014,
+        0.0062883191404634305,
+        0.007528436872270295,
+        0.00836766156568744,
+        0.008996184053246408,
+        0.009522325227486368,
+        0.010526038025755358,
+        0.010938400157056462,
+        0.012683634586149475,
+        0.01332945170373795,
+        0.01445070943676255,
+        0.01569602482181394,
+        0.015978353785840265,
+        0.017045179866271493,
+        0.018113764567391995,
+        0.018491287773258588
+      ],
+      "truncated_spectral_zeta": {
+        "1": 5860.838145394301,
+        "2": 4487023.816747989
+      },
+      "truncated_spectral_entropy": 2.9240798623390902,
+      "phenotype_dirichlet_energy": 0.02183620163704722,
+      "phenotype_variance": 0.02997344359755516,
+      "phenotype_moran_like": 0.7285196613871837
+    },
+    "lung": {
+      "n_nodes": 3858,
+      "n_edges": 11859,
+      "n_connected_components": 1,
+      "k": 6,
+      "mean_degree": 6.147744945567652,
+      "low_frequency_eigenvalues": [
+        0.0,
+        0.0005884750061876963,
+        0.0007345901121462117,
+        0.001314743477577347,
+        0.0026036444969988336,
+        0.003314826469576184,
+        0.003352368921294925,
+        0.004554733904200005,
+        0.005401675868782866,
+        0.006143938835485559,
+        0.006842575730376365,
+        0.007308508881783898,
+        0.007911683613936769,
+        0.00941688107318463,
+        0.009653429059270274,
+        0.010473802798445161,
+        0.011686707784058226,
+        0.012711768375992761,
+        0.013014167437749257,
+        0.014182559528657546,
+        0.014448446661182756,
+        0.015095654340316431,
+        0.017118590716382668,
+        0.017505663548517146,
+        0.018316253071818434
+      ],
+      "truncated_spectral_zeta": {
+        "1": 6704.505793363838,
+        "2": 5886182.671967368
+      },
+      "truncated_spectral_entropy": 2.9649356183898714,
+      "phenotype_dirichlet_energy": 0.03476034671325151,
+      "phenotype_variance": 0.04754069074988365,
+      "phenotype_moran_like": 0.7311705787458431
+    }
+  },
+  "interpretation": [
+    "The truncated spectral zeta describes graph geometry, not a payoff matrix.",
+    "No result here supports a Riemann-zeta biological mechanism.",
+    "A spectral or spatial association must still beat composition and spatial baselines in held-out patients."
+  ]
+}

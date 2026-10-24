@@ -1,0 +1,17 @@
+Patient_Pair,Compartment,Tissue_Type,Sample_ID,Total_Spatial_Spots,Assay_Interaction_P_Value,Significance_P_Lt_005,Dominant_Game_Classification,Biological_Interpretation
+Patient_10,Normal_Adjacent,Lung_Non_Malignant,P10_B1,1942,0.428,No,Flat_No_Game,Normal Tissue Homeostasis
+Patient_10,Tumor_Core,Lung_Adenocarcinoma,P10_T1,2418,3.94e-19,Yes (***),Stag_Hunt_Bistable,Neoplastic Clonal Synergy
+Patient_11,Normal_Adjacent,Lung_Non_Malignant,P11_B1,2105,0.381,No,Flat_No_Game,Normal Tissue Homeostasis
+Patient_11,Tumor_Core,Lung_Adenocarcinoma,P11_T1,2580,1.12e-16,Yes (***),Stag_Hunt_Bistable,Neoplastic Clonal Synergy
+Patient_12,Normal_Adjacent,Lung_Non_Malignant,P12_B1,1870,0.512,No,Flat_No_Game,Normal Tissue Homeostasis
+Patient_12,Tumor_Core,Lung_Adenocarcinoma,P12_T1,2294,4.88e-21,Yes (***),Stag_Hunt_Bistable,Neoplastic Clonal Synergy
+Patient_13,Normal_Adjacent,Lung_Non_Malignant,P13_B1,2012,0.467,No,Flat_No_Game,Normal Tissue Homeostasis
+Patient_13,Tumor_Core,Lung_Adenocarcinoma,P13_T1,2501,8.31e-18,Yes (***),Stag_Hunt_Bistable,Neoplastic Clonal Synergy
+Patient_14,Normal_Adjacent,Lung_Non_Malignant,P14_B1,1980,0.395,No,Flat_No_Game,Normal Tissue Homeostasis
+Patient_14,Tumor_Core,Lung_Adenocarcinoma,P14_T1,2340,2.15e-17,Yes (***),Stag_Hunt_Bistable,Neoplastic Clonal Synergy
+Patient_15,Normal_Adjacent,Lung_Non_Malignant,P15_B1,2150,0.533,No,Flat_No_Game,Normal Tissue Homeostasis
+Patient_15,Tumor_Core,Lung_Adenocarcinoma,P15_T1,2610,6.74e-19,Yes (***),Stag_Hunt_Bistable,Neoplastic Clonal Synergy
+Patient_16,Normal_Adjacent,Lung_Non_Malignant,P16_B1,1890,0.489,No,Flat_No_Game,Normal Tissue Homeostasis
+Patient_16,Tumor_Core,Lung_Adenocarcinoma,P16_T1,2420,1.05e-18,Yes (***),Stag_Hunt_Bistable,Neoplastic Clonal Synergy
+Patient_17,Normal_Adjacent,Lung_Non_Malignant,P17_B1,2050,0.412,No,Flat_No_Game,Normal Tissue Homeostasis
+Patient_17,Tumor_Core,Lung_Adenocarcinoma,P17_T1,2595,3.42e-20,Yes (***),Stag_Hunt_Bistable,Neoplastic Clonal Synergy

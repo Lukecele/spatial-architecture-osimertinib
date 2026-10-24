@@ -1,0 +1,205 @@
+{
+  "purpose": "Multiple-scale spatial audit with separate held-out reporting",
+  "cohorts": {
+    "lung": {
+      "cohort": "lung",
+      "n_scales": 12,
+      "correlation_length_xi_um": 475.0,
+      "best_oof_radius_um": 250.0,
+      "best_delta_oof_pct": 2.6800367161898153,
+      "contact_scale_delta_oof_pct": -0.17543781630776634,
+      "positive_oof_scales": 10,
+      "all_in_sample_q_below_0_05": true,
+      "scale_results": [
+        {
+          "radius_um": 55.0,
+          "delta_oof_pct": -0.17543781630776634,
+          "delta_r2_pct": 0.49904125745176,
+          "p_value": 2.2982175322372456e-05,
+          "q_value_bh": 2.2982175322372456e-05
+        },
+        {
+          "radius_um": 75.0,
+          "delta_oof_pct": -0.17543781630776634,
+          "delta_r2_pct": 0.49904125745176,
+          "p_value": 2.2982175322372456e-05,
+          "q_value_bh": 2.2982175322372456e-05
+        },
+        {
+          "radius_um": 100.0,
+          "delta_oof_pct": 0.9674727927546645,
+          "delta_r2_pct": 1.7358551030023261,
+          "p_value": 1.1102230246251565e-16,
+          "q_value_bh": 1.3322676295501878e-16
+        },
+        {
+          "radius_um": 150.0,
+          "delta_oof_pct": 2.4446162340386657,
+          "delta_r2_pct": 3.1599407666213275,
+          "p_value": 1.1102230246251565e-16,
+          "q_value_bh": 1.3322676295501878e-16
+        },
+        {
+          "radius_um": 200.0,
+          "delta_oof_pct": 2.563279451432643,
+          "delta_r2_pct": 3.3086796762984427,
+          "p_value": 1.1102230246251565e-16,
+          "q_value_bh": 1.3322676295501878e-16
+        },
+        {
+          "radius_um": 250.0,
+          "delta_oof_pct": 2.6800367161898153,
+          "delta_r2_pct": 3.477182118229971,
+          "p_value": 1.1102230246251565e-16,
+          "q_value_bh": 1.3322676295501878e-16
+        },
+        {
+          "radius_um": 300.0,
+          "delta_oof_pct": 2.6426397085642983,
+          "delta_r2_pct": 3.500953880472757,
+          "p_value": 1.1102230246251565e-16,
+          "q_value_bh": 1.3322676295501878e-16
+        },
+        {
+          "radius_um": 400.0,
+          "delta_oof_pct": 2.1165788970504362,
+          "delta_r2_pct": 3.3967113521918946,
+          "p_value": 1.1102230246251565e-16,
+          "q_value_bh": 1.3322676295501878e-16
+        },
+        {
+          "radius_um": 500.0,
+          "delta_oof_pct": 1.6356431099928903,
+          "delta_r2_pct": 3.2094056048068365,
+          "p_value": 1.1102230246251565e-16,
+          "q_value_bh": 1.3322676295501878e-16
+        },
+        {
+          "radius_um": 600.0,
+          "delta_oof_pct": 1.1875641615802568,
+          "delta_r2_pct": 3.0033928261374965,
+          "p_value": 1.1102230246251565e-16,
+          "q_value_bh": 1.3322676295501878e-16
+        },
+        {
+          "radius_um": 750.0,
+          "delta_oof_pct": 0.9949823459493468,
+          "delta_r2_pct": 2.8748784339114097,
+          "p_value": 1.1102230246251565e-16,
+          "q_value_bh": 1.3322676295501878e-16
+        },
+        {
+          "radius_um": 1000.0,
+          "delta_oof_pct": 0.9626157161020554,
+          "delta_r2_pct": 3.044505625770222,
+          "p_value": 1.1102230246251565e-16,
+          "q_value_bh": 1.3322676295501878e-16
+        }
+      ],
+      "interpretation": "Exploratory same-section multiscale scan; the selected radius is not independently validated and does not establish causality."
+    },
+    "breast": {
+      "cohort": "breast",
+      "n_scales": 12,
+      "correlation_length_xi_um": 575.0,
+      "best_oof_radius_um": 150.0,
+      "best_delta_oof_pct": 8.482547664449068,
+      "contact_scale_delta_oof_pct": 5.462458358233125,
+      "positive_oof_scales": 12,
+      "all_in_sample_q_below_0_05": true,
+      "scale_results": [
+        {
+          "radius_um": 55.0,
+          "delta_oof_pct": 5.462458358233125,
+          "delta_r2_pct": 4.894622882580057,
+          "p_value": 1.1102230246251565e-16,
+          "q_value_bh": 1.1102230246251565e-16
+        },
+        {
+          "radius_um": 75.0,
+          "delta_oof_pct": 5.462458358233125,
+          "delta_r2_pct": 4.894622882580057,
+          "p_value": 1.1102230246251565e-16,
+          "q_value_bh": 1.1102230246251565e-16
+        },
+        {
+          "radius_um": 100.0,
+          "delta_oof_pct": 6.713125404377662,
+          "delta_r2_pct": 5.769693375595109,
+          "p_value": 1.1102230246251565e-16,
+          "q_value_bh": 1.1102230246251565e-16
+        },
+        {
+          "radius_um": 150.0,
+          "delta_oof_pct": 8.482547664449068,
+          "delta_r2_pct": 8.768639774946486,
+          "p_value": 1.1102230246251565e-16,
+          "q_value_bh": 1.1102230246251565e-16
+        },
+        {
+          "radius_um": 200.0,
+          "delta_oof_pct": 7.95996872999547,
+          "delta_r2_pct": 9.169380367579837,
+          "p_value": 1.1102230246251565e-16,
+          "q_value_bh": 1.1102230246251565e-16
+        },
+        {
+          "radius_um": 250.0,
+          "delta_oof_pct": 7.159978603598383,
+          "delta_r2_pct": 9.273901029850684,
+          "p_value": 1.1102230246251565e-16,
+          "q_value_bh": 1.1102230246251565e-16
+        },
+        {
+          "radius_um": 300.0,
+          "delta_oof_pct": 5.392032616208997,
+          "delta_r2_pct": 9.20123794754173,
+          "p_value": 1.1102230246251565e-16,
+          "q_value_bh": 1.1102230246251565e-16
+        },
+        {
+          "radius_um": 400.0,
+          "delta_oof_pct": 3.0986655047307576,
+          "delta_r2_pct": 9.163561373972717,
+          "p_value": 1.1102230246251565e-16,
+          "q_value_bh": 1.1102230246251565e-16
+        },
+        {
+          "radius_um": 500.0,
+          "delta_oof_pct": 2.0292989742890843,
+          "delta_r2_pct": 9.235423864673919,
+          "p_value": 1.1102230246251565e-16,
+          "q_value_bh": 1.1102230246251565e-16
+        },
+        {
+          "radius_um": 600.0,
+          "delta_oof_pct": 1.594253126108891,
+          "delta_r2_pct": 9.44329684859504,
+          "p_value": 1.1102230246251565e-16,
+          "q_value_bh": 1.1102230246251565e-16
+        },
+        {
+          "radius_um": 750.0,
+          "delta_oof_pct": 1.9747198118889364,
+          "delta_r2_pct": 9.486884505011373,
+          "p_value": 1.1102230246251565e-16,
+          "q_value_bh": 1.1102230246251565e-16
+        },
+        {
+          "radius_um": 1000.0,
+          "delta_oof_pct": 4.088969901844052,
+          "delta_r2_pct": 9.294685277974713,
+          "p_value": 1.1102230246251565e-16,
+          "q_value_bh": 1.1102230246251565e-16
+        }
+      ],
+      "interpretation": "Exploratory same-section multiscale scan; the selected radius is not independently validated and does not establish causality."
+    }
+  },
+  "limitations": [
+    "Radii were evaluated on the same tissue, so the best radius is selected, not independent.",
+    "Benjamini-Hochberg q-values apply only to exploratory in-sample p-values.",
+    "Spatial-block OOF performance, not in-sample p-values, is the relevant generalization diagnostic.",
+    "The scan does not provide patient-level replication or causal identification."
+  ]
+}

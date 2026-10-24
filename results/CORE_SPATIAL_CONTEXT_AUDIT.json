@@ -1,0 +1,72 @@
+{
+  "purpose": "Minimal validated-core audit",
+  "radius_um": 150.0,
+  "cohorts": {
+    "breast": {
+      "spots": 4992,
+      "radius_um": 150.0,
+      "focal_composition": {
+        "in_sample_r2": 0.18314504623413086,
+        "spatial_block_oof_r2": 0.10744240920025439
+      },
+      "focal_plus_neighbourhood": {
+        "in_sample_r2": 0.22571420669555664,
+        "spatial_block_oof_r2": 0.15728377568307061
+      },
+      "neighbourhood_permutation_null": {
+        "observed_oof_increment": 0.04984136648281623,
+        "null_mean_oof_increment": -0.0001290324666313547,
+        "null_max_oof_increment": 0.0015052081977648957,
+        "empirical_p_value": 0.009900990099009901,
+        "permutations": 100
+      },
+      "interpretation": "Non-game spatial-context audit; not a payoff or causal model."
+    },
+    "melanoma": {
+      "spots": 3458,
+      "radius_um": 150.0,
+      "focal_composition": {
+        "in_sample_r2": 0.19573581218719482,
+        "spatial_block_oof_r2": 0.11498032968383576
+      },
+      "focal_plus_neighbourhood": {
+        "in_sample_r2": 0.25283902883529663,
+        "spatial_block_oof_r2": 0.19366074108714404
+      },
+      "neighbourhood_permutation_null": {
+        "observed_oof_increment": 0.07868041140330828,
+        "null_mean_oof_increment": -0.00035238030843157353,
+        "null_max_oof_increment": 0.00185101120282527,
+        "empirical_p_value": 0.009900990099009901,
+        "permutations": 100
+      },
+      "interpretation": "Non-game spatial-context audit; not a payoff or causal model."
+    },
+    "lung": {
+      "spots": 3858,
+      "radius_um": 150.0,
+      "focal_composition": {
+        "in_sample_r2": 0.2704011797904968,
+        "spatial_block_oof_r2": 0.22357741572028966
+      },
+      "focal_plus_neighbourhood": {
+        "in_sample_r2": 0.29481232166290283,
+        "spatial_block_oof_r2": 0.24888487725929265
+      },
+      "neighbourhood_permutation_null": {
+        "observed_oof_increment": 0.025307461539002984,
+        "null_mean_oof_increment": -0.0003630900363627443,
+        "null_max_oof_increment": 0.00047555644329178026,
+        "empirical_p_value": 0.009900990099009901,
+        "permutations": 100
+      },
+      "interpretation": "Non-game spatial-context audit; not a payoff or causal model."
+    }
+  },
+  "limitations": [
+    "The cache contains restricted marker panels, not whole-transcriptome data.",
+    "Spatial blocks are not independent patients.",
+    "The outcome is a molecular proliferation proxy.",
+    "No result establishes causality or biological payoff parameters."
+  ]
+}

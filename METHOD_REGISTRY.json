@@ -1,0 +1,55 @@
+{
+  "primary_question": "Does tumour-adapted spatial context add reproducible information beyond focal molecular composition?",
+  "independent_unit": "patient_or_donor",
+  "tiers": {
+    "P0": [
+      "quality_control",
+      "coordinate_and_graph_audit",
+      "focal_vs_context_baselines",
+      "spatial_autocorrelation",
+      "multiscale_analysis",
+      "patient_held_out_validation",
+      "patient_bootstrap",
+      "restricted_null_models",
+      "confounding_and_platform_sensitivity"
+      ,"boolean_qc_filters"
+      ,"count_normalisation_and_zscore_matrices"
+      ,"multiple_testing_correction"
+      ,"transparent_bayesian_effect_summary"
+    ],
+    "P1": [
+      "deconvolution_or_reference_mapping",
+      "spatial_domains",
+      "neighbourhood_enrichment",
+      "graph_signal_diagnostics",
+      "hierarchical_models",
+      "spatial_programs",
+      "method_benchmarking"
+    ],
+    "P2": [
+      "ligand_receptor_hypotheses",
+      "histology_integration",
+      "matched_single_cell_integration",
+      "genomic_anchoring",
+      "information_theory",
+      "interpretable_machine_learning"
+    ],
+    "P3": [
+      "game_theory",
+      "deep_graph_models",
+      "causal_inference",
+      "dynamic_models",
+      "clinical_prediction"
+    ]
+  },
+  "hard_exclusions_without_new_data": [
+    "miRNA_mechanism",
+    "methylome_mechanism",
+    "protein_validation",
+    "genetic_clone_claim",
+    "causal_communication",
+    "therapeutic_utility",
+    "physical_vorticity"
+  ],
+  "success_rule": "Retain only methods with documented inputs, grouped validation, uncertainty, null_or_baseline, and interpretation limits."
+}

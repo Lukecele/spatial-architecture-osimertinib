@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "If you use this subcellular spatial transcriptomics dataset, biophysical transport model, or code in your research, please cite it as below."
+title: "Subcellular Spatial Architecture and Vascular Decoupling Predict Progression-Free Survival Under Osimertinib in EGFR-Mutant Non-Small Cell Lung Cancer"
+version: 2.0.0
+date-released: 2026-10-24
+url: "https://github.com/Lukecele/spatial-game-assay"
+repository-code: "https://github.com/Lukecele/spatial-game-assay"
+license: GPL-3.0-or-later
+keywords:
+  - "spatial transcriptomics"
+  - "10x Genomics Visium HD"
+  - "osimertinib"
+  - "EGFR-TKI"
+  - "microvascular decoupling"
+  - "Helmholtz reaction-diffusion"
+  - "WHO histopathology"
+  - "lepidic vs solid"
+authors:
+  - family-names: "Celebrano"
+    given-names: "Luca"
+    orcid: "https://orcid.org/0009-0007-0931-3555"
+    email: "l.celebrano@studenti.unina.it"
+    affiliation: "Department of Clinical Medicine and Surgery, School of Medicine, University of Naples Federico II, Naples, Italy"
