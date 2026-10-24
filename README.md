@@ -27,11 +27,11 @@ In EGFR-mutated non-small cell lung cancer (NSCLC), third-generation tyrosine ki
 
 ```mermaid
 flowchart TD
-    Biopsy["Intact Human Lung Adenocarcinoma Biopsy<br>(EGFR-Mutant under Osimertinib)"] --> Visium["10x Genomics Visium HD<br>(211,104 sub-cellular bins at 2 µm)"]
-    Visium --> Pheno["Spatial Graph & Neighborhood Analysis<br>(Tumor vs Endothelial vs Stromal Contacts)"]
-    Pheno --> Decoupling["Discovery: Microvascular Decoupling<br>Homotypic packing (87.9%) collapses capillary beds (2.7%)"]
-    Decoupling --> Biophysics["Biophysical Transport Modeling<br>Osimertinib tissue diffusion length: λ ≈ 624 µm"]
-    Biophysics --> Sanctuary["Pharmacological Sanctuary Formation<br>Sub-therapeutic drug delivery driving non-genetic relapse!"]
+    Biopsy["Intact Human Lung Adenocarcinoma Biopsy<br/>EGFR-Mutant under Osimertinib"] --> Visium["10x Genomics Visium HD<br/>211,104 sub-cellular bins at 2 µm"]
+    Visium --> Pheno["Spatial Graph & Neighborhood Analysis<br/>Tumor vs Endothelial vs Stromal Contacts"]
+    Pheno --> Decoupling["Discovery: Microvascular Decoupling<br/>Homotypic packing 87.9% collapses capillary beds 2.7%"]
+    Decoupling --> Biophysics["Biophysical Transport Modeling<br/>Osimertinib tissue diffusion length: λ ≈ 624 µm"]
+    Biophysics --> Sanctuary["Pharmacological Sanctuary Formation<br/>Sub-therapeutic drug delivery driving non-genetic relapse"]
     
     style Biopsy fill:#e1f5fe,stroke:#0288d1,stroke-width:2px
     style Visium fill:#e8f5e9,stroke:#388e3c,stroke-width:2px
