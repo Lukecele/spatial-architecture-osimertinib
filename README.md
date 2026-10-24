@@ -13,6 +13,10 @@
 **Classification:** Independent Scientific Research • Subcellular Spatial Omics & Biophysical Oncology  
 **Manuscript PDF:** [MANUSCRIPT_SPATIAL_ARCHITECTURE_OSIMERTINIB.pdf](manuscript/MANUSCRIPT_SPATIAL_ARCHITECTURE_OSIMERTINIB.pdf)
 
+> [!TIP]
+> **Support Open-Source Biophysical Oncology:**  
+> If you find this 10x Visium HD subcellular transport model or our spatial reaction-diffusion solver helpful in your research, please consider giving this repository a ⭐ **Star** on GitHub!
+
 ---
 
 ## 🔬 Overview & The Non-Genetic Resistance Mystery
