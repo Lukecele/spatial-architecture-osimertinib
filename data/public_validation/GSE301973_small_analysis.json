@@ -1,0 +1,194 @@
+{
+  "accession": "GSE301973",
+  "analysis_type": "descriptive pretreatment spatial program audit",
+  "patient_assignment_verified": false,
+  "warning": "Regions are coordinate-derived candidate partitions. They are not assigned to long/short PFS until the sample-position mapping is verified.",
+  "modules": {
+    "egfr_bypass": [
+      "EGFR",
+      "ERBB2",
+      "ERBB3",
+      "MET",
+      "AXL",
+      "FGFR1",
+      "IGF1R"
+    ],
+    "emt": [
+      "VIM",
+      "CDH2",
+      "ZEB1",
+      "SNAI1",
+      "SNAI2"
+    ],
+    "stem_like": [
+      "ALDH1A1",
+      "SOX2",
+      "PROM1",
+      "CD44"
+    ],
+    "spp1_cd44": [
+      "SPP1",
+      "CD44"
+    ],
+    "proliferation": [
+      "MKI67",
+      "PCNA",
+      "TOP2A",
+      "CDK1"
+    ]
+  },
+  "slides": [
+    {
+      "slide": "A",
+      "cells": 45661,
+      "regions": [
+        {
+          "candidate_region": 0,
+          "cells": 30071,
+          "centroid": [
+            17562.745532164205,
+            15784.784718537632
+          ],
+          "cell_type_counts": {
+            "Endothelial cell": 6589,
+            "Tumor cell": 9070,
+            "Stromal cell": 4972,
+            "Plasmablast": 4390,
+            "Myeloid cell": 905,
+            "Airway epithelial cell": 44,
+            "Lymphocyte": 2402,
+            "Alveolar epithelial cell": 1699
+          },
+          "module_means": {
+            "egfr_bypass": 0.11008231341838837,
+            "emt": 0.30344250798225403,
+            "stem_like": 0.33470863103866577,
+            "spp1_cd44": 0.6242743134498596,
+            "proliferation": 0.039130497723817825
+          },
+          "nearest_neighbour_type_fractions": {
+            "Airway epithelial cell": 0.0014576613126711228,
+            "Alveolar epithelial cell": 0.05615044394931994,
+            "Endothelial cell": 0.22036735282054692,
+            "Lymphocyte": 0.08096948333388758,
+            "Myeloid cell": 0.030350392958886193,
+            "Plasmablast": 0.1470408921108931,
+            "Stromal cell": 0.1656745701838981,
+            "Tumor cell": 0.29798920332989703
+          }
+        },
+        {
+          "candidate_region": 1,
+          "cells": 15590,
+          "centroid": [
+            9823.755404784819,
+            16371.161020819904
+          ],
+          "cell_type_counts": {
+            "Tumor cell": 3912,
+            "Alveolar epithelial cell": 656,
+            "Endothelial cell": 5666,
+            "Myeloid cell": 1046,
+            "Plasmablast": 2166,
+            "Lymphocyte": 1274,
+            "Stromal cell": 864,
+            "Airway epithelial cell": 6
+          },
+          "module_means": {
+            "egfr_bypass": 0.13766098022460938,
+            "emt": 0.32064542174339294,
+            "stem_like": 0.196681410074234,
+            "spp1_cd44": 0.4206399917602539,
+            "proliferation": 0.062368880957365036
+          },
+          "nearest_neighbour_type_fractions": {
+            "Airway epithelial cell": 0.00031002779559546716,
+            "Alveolar epithelial cell": 0.04213170836005987,
+            "Endothelial cell": 0.3636519136198418,
+            "Lymphocyte": 0.0829912336968142,
+            "Myeloid cell": 0.06709429121231558,
+            "Plasmablast": 0.13802651272183022,
+            "Stromal cell": 0.05601881548000855,
+            "Tumor cell": 0.2497754971135343
+          }
+        }
+      ]
+    },
+    {
+      "slide": "C",
+      "cells": 165630,
+      "regions": [
+        {
+          "candidate_region": 0,
+          "cells": 79530,
+          "centroid": [
+            13732.42491477046,
+            6721.856761274178
+          ],
+          "cell_type_counts": {
+            "Tumor cell": 39988,
+            "Stromal cell": 3953,
+            "Plasmablast": 9015,
+            "Endothelial cell": 16735,
+            "Lymphocyte": 5246,
+            "Airway epithelial cell": 837,
+            "Alveolar epithelial cell": 757,
+            "Myeloid cell": 2999
+          },
+          "module_means": {
+            "egfr_bypass": 0.1142561063170433,
+            "emt": 0.21892283856868744,
+            "stem_like": 0.1772347241640091,
+            "spp1_cd44": 0.2762761414051056,
+            "proliferation": 0.05558961257338524
+          },
+          "nearest_neighbour_type_fractions": {
+            "Airway epithelial cell": 0.0105913910893164,
+            "Alveolar epithelial cell": 0.009610629112703802,
+            "Endothelial cell": 0.210878494488453,
+            "Lymphocyte": 0.06692652667756402,
+            "Myeloid cell": 0.03693993880715873,
+            "Plasmablast": 0.1124020285846012,
+            "Stromal cell": 0.04793578942956536,
+            "Tumor cell": 0.5047152018106374
+          }
+        },
+        {
+          "candidate_region": 1,
+          "cells": 86100,
+          "centroid": [
+            12955.718305559061,
+            15080.43095042619
+          ],
+          "cell_type_counts": {
+            "Tumor cell": 43950,
+            "Stromal cell": 5930,
+            "Plasmablast": 11364,
+            "Endothelial cell": 16141,
+            "Lymphocyte": 5541,
+            "Myeloid cell": 2180,
+            "Alveolar epithelial cell": 33,
+            "Airway epithelial cell": 961
+          },
+          "module_means": {
+            "egfr_bypass": 0.1440715491771698,
+            "emt": 0.234843909740448,
+            "stem_like": 0.20150671899318695,
+            "spp1_cd44": 0.2988506555557251,
+            "proliferation": 0.0757390707731247
+          },
+          "nearest_neighbour_type_fractions": {
+            "Airway epithelial cell": 0.011310491676345335,
+            "Alveolar epithelial cell": 0.0003348819202477739,
+            "Endothelial cell": 0.1874699961285327,
+            "Lymphocyte": 0.06481610530391019,
+            "Myeloid cell": 0.02475029036004646,
+            "Plasmablast": 0.13002903600464577,
+            "Stromal cell": 0.06740611691831204,
+            "Tumor cell": 0.5138830816879597
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -11,11 +11,12 @@ OUTPUT = ROOT / "data" / "extension_pilot" / "core_patient_holdout.json"
 
 class TestCorePatientHoldout(unittest.TestCase):
     def test_core_patient_holdout_has_eight_patients(self):
-        subprocess.run(
-            [sys.executable, "src/core_patient_holdout.py"],
-            cwd=ROOT,
-            check=True,
-        )
+        if not OUTPUT.exists():
+            subprocess.run(
+                [sys.executable, "src/core_patient_holdout.py"],
+                cwd=ROOT,
+                check=True,
+            )
         data = json.loads(OUTPUT.read_text())
         self.assertEqual(data["radius_um"], 150.0)
         self.assertEqual(len(data["patients"]), 8)

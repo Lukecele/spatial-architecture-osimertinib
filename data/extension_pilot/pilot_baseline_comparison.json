@@ -1,0 +1,34 @@
+{
+  "P10_B1": {
+    "spots": 1755,
+    "mean_only_r2": 0.0,
+    "composition_and_neighborhood_r2": 0.01389348605466989,
+    "game_r2": 0.015097296018961925,
+    "composition_and_neighborhood_block_cv_r2": 0.008891678487570553,
+    "game_block_cv_r2": 0.006067926014452052,
+    "game_neighbor_shuffle_null": {
+      "observed_r2": 0.015097296018961925,
+      "null_mean_r2": 0.007078145139301333,
+      "null_max_r2": 0.0177415073575381,
+      "empirical_p_value": 0.019801980198019802,
+      "permutations": 100
+    },
+    "interpretation": "exploratory in-sample comparison; not external validation"
+  },
+  "P10_T1": {
+    "spots": 2200,
+    "mean_only_r2": 0.0,
+    "composition_and_neighborhood_r2": 0.016796975541094605,
+    "game_r2": 0.020147073320376685,
+    "composition_and_neighborhood_block_cv_r2": -0.004827726048722614,
+    "game_block_cv_r2": -0.010082793594906825,
+    "game_neighbor_shuffle_null": {
+      "observed_r2": 0.020147073320376685,
+      "null_mean_r2": 0.012976536403209402,
+      "null_max_r2": 0.018994089101577294,
+      "empirical_p_value": 0.009900990099009901,
+      "permutations": 100
+    },
+    "interpretation": "exploratory in-sample comparison; not external validation"
+  }
+}

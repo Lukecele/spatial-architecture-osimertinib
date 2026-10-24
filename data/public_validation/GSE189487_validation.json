@@ -1,0 +1,107 @@
+{
+  "accession": "GSE189487",
+  "radius_um": 150.0,
+  "samples": [
+    "GSM5702473_TD1",
+    "GSM5702474_TD2",
+    "GSM5702475_TD3",
+    "GSM5702476_TD5",
+    "GSM5702477_TD6",
+    "GSM5702478_TD8"
+  ],
+  "marker_spec": {
+    "epithelial_alveolar": [
+      "EPCAM",
+      "KRT8",
+      "SCGB1A1",
+      "SFTPC"
+    ],
+    "invasive_mesenchymal": [
+      "VIM",
+      "AXL",
+      "CDH2",
+      "KRT19"
+    ],
+    "caf": [
+      "COL1A1",
+      "COL3A1",
+      "ACTA2",
+      "FAP"
+    ],
+    "immune": [
+      "CD68",
+      "CD3D",
+      "CD8A",
+      "MS4A1",
+      "NKG7"
+    ],
+    "outcome": [
+      "MKI67",
+      "PCNA",
+      "TOP2A",
+      "CDK1"
+    ],
+    "hypoxia": [
+      "HIF1A",
+      "VEGFA",
+      "CA9"
+    ],
+    "vascular": [
+      "PECAM1",
+      "VWF"
+    ]
+  },
+  "patients_assumed_one_per_spatial_sample": true,
+  "patients": [
+    {
+      "focal_r2": -1.0130364426022203,
+      "focal_plus_neighbourhood_r2": -0.9955953590850146,
+      "context_minus_focal_r2": 0.017441083517205636,
+      "spots": 4095,
+      "held_out_sample": "GSM5702473_TD1"
+    },
+    {
+      "focal_r2": -1.3028825099585188,
+      "focal_plus_neighbourhood_r2": -1.9048270471379891,
+      "context_minus_focal_r2": -0.6019445371794703,
+      "spots": 4992,
+      "held_out_sample": "GSM5702474_TD2"
+    },
+    {
+      "focal_r2": -0.2786039417805999,
+      "focal_plus_neighbourhood_r2": -0.18633707022414892,
+      "context_minus_focal_r2": 0.09226687155645097,
+      "spots": 1140,
+      "held_out_sample": "GSM5702475_TD3"
+    },
+    {
+      "focal_r2": -0.5476526902740384,
+      "focal_plus_neighbourhood_r2": -0.2573907705095071,
+      "context_minus_focal_r2": 0.2902619197645313,
+      "spots": 1700,
+      "held_out_sample": "GSM5702476_TD5"
+    },
+    {
+      "focal_r2": -0.22467442287332307,
+      "focal_plus_neighbourhood_r2": -0.16166180830048416,
+      "context_minus_focal_r2": 0.06301261457283891,
+      "spots": 3911,
+      "held_out_sample": "GSM5702477_TD6"
+    },
+    {
+      "focal_r2": -0.49714543798099875,
+      "focal_plus_neighbourhood_r2": -0.6457700113328175,
+      "context_minus_focal_r2": -0.14862457335181878,
+      "spots": 1760,
+      "held_out_sample": "GSM5702478_TD8"
+    }
+  ],
+  "mean_patient_delta_r2": -0.047931103520043705,
+  "median_patient_delta_r2": 0.04022684904502227,
+  "samples_with_positive_delta": 4,
+  "bootstrap_95ci_mean_delta_r2": [
+    -0.2998631164601566,
+    0.14579425628593687
+  ],
+  "interpretation": "Lung-adapted patient-held-out validation using public processed matrices; not causal or clinical validation."
+}

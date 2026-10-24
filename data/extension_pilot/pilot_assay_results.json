@@ -1,0 +1,108 @@
+{
+  "P10_B1": {
+    "nash_game_type": "Resistant Dominance",
+    "nash_equilibria": {
+      "x_pure": 0.0,
+      "status": "Resistant clone unconditionally dominates"
+    },
+    "payoff_matrix_3x3": [
+      [
+        -0.06879544124808583,
+        0.0691896233040232,
+        -0.011878359547375527
+      ],
+      [
+        0.11425778336514435,
+        0.2665366672735159,
+        -0.4954554861157512
+      ],
+      [
+        -0.4934829526948135,
+        -0.09752049355208547,
+        0.515065003690591
+      ]
+    ],
+    "intrinsic_fitness_vector": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "explained_variance_r2": 0.015097296018962036,
+    "diagnostic_metrics": {
+      "contingency_table": {
+        "TP": 370,
+        "FP": 508,
+        "FN": 508,
+        "TN": 369
+      },
+      "sensitivity": 0.4214123006833713,
+      "specificity": 0.4207525655644242,
+      "ppv_precision": 0.4214123006833713,
+      "npv": 0.4207525655644242,
+      "accuracy": 0.42108262108262107,
+      "odds_ratio": 0.5294448650232189,
+      "odds_ratio_95_ci": [
+        0.4380890120356154,
+        0.6398513941195719
+      ],
+      "fisher_exact_p_value": 4.1185148590144123e-11,
+      "roc_auc": 0.39666119484783235,
+      "is_statistically_significant": false
+    }
+  },
+  "P10_T1": {
+    "nash_game_type": "Stag Hunt (Bistable)",
+    "nash_equilibria": {
+      "x_sep": 0.20614822081068168,
+      "x_equilibria": [
+        0.0,
+        1.0
+      ],
+      "status": "Bistable separatrix tipping point at x = 0.206"
+    },
+    "payoff_matrix_3x3": [
+      [
+        0.9793539855555241,
+        -0.6106959916059068,
+        -0.10085938235974054
+      ],
+      [
+        -0.4302548588469516,
+        -0.244647362717879,
+        0.22768123291469933
+      ],
+      [
+        0.0958941872402983,
+        0.10792313015860247,
+        -0.0825291744104539
+      ]
+    ],
+    "intrinsic_fitness_vector": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "explained_variance_r2": 0.020147073320376574,
+    "diagnostic_metrics": {
+      "contingency_table": {
+        "TP": 655,
+        "FP": 445,
+        "FN": 445,
+        "TN": 655
+      },
+      "sensitivity": 0.5954545454545455,
+      "specificity": 0.5954545454545455,
+      "ppv_precision": 0.5954545454545455,
+      "npv": 0.5954545454545455,
+      "accuracy": 0.5954545454545455,
+      "odds_ratio": 2.164960491559818,
+      "odds_ratio_95_ci": [
+        1.8261393316242316,
+        2.566646393759068
+      ],
+      "fisher_exact_p_value": 3.9409130317720175e-19,
+      "roc_auc": 0.6344586776859504,
+      "is_statistically_significant": true
+    }
+  }
+}

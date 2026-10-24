@@ -1,0 +1,193 @@
+{
+  "radius_um": 150.0,
+  "patients": [
+    "P10",
+    "P11",
+    "P15",
+    "P16",
+    "P17",
+    "P19",
+    "P24",
+    "P25"
+  ],
+  "rows": [
+    {
+      "held_out_patient": "P10",
+      "sample": "P10_B1",
+      "spots": 1755,
+      "focal_r2": -0.02672018864987802,
+      "focal_plus_neighbourhood_r2": -0.023208544793500208,
+      "context_minus_focal_r2": 0.0035116438563778107
+    },
+    {
+      "held_out_patient": "P10",
+      "sample": "P10_T1",
+      "spots": 2200,
+      "focal_r2": -0.005500350326922421,
+      "focal_plus_neighbourhood_r2": -0.00669825258810075,
+      "context_minus_focal_r2": -0.0011979022611783297
+    },
+    {
+      "held_out_patient": "P11",
+      "sample": "P11_B1",
+      "spots": 2873,
+      "focal_r2": -0.037535826598556365,
+      "focal_plus_neighbourhood_r2": -0.035953690748719236,
+      "context_minus_focal_r2": 0.0015821358498371296
+    },
+    {
+      "held_out_patient": "P11",
+      "sample": "P11_T1",
+      "spots": 1110,
+      "focal_r2": 0.07223082242780632,
+      "focal_plus_neighbourhood_r2": 0.08273427295616886,
+      "context_minus_focal_r2": 0.010503450528362546
+    },
+    {
+      "held_out_patient": "P15",
+      "sample": "P15_B1",
+      "spots": 2844,
+      "focal_r2": -0.031638989688584473,
+      "focal_plus_neighbourhood_r2": -0.02514536335642803,
+      "context_minus_focal_r2": 0.006493626332156444
+    },
+    {
+      "held_out_patient": "P15",
+      "sample": "P15_T1",
+      "spots": 2624,
+      "focal_r2": -0.011706667642296109,
+      "focal_plus_neighbourhood_r2": -0.013144508196416327,
+      "context_minus_focal_r2": -0.0014378405541202177
+    },
+    {
+      "held_out_patient": "P16",
+      "sample": "P16_B1",
+      "spots": 3123,
+      "focal_r2": -0.06436597742406591,
+      "focal_plus_neighbourhood_r2": -0.05650403928557446,
+      "context_minus_focal_r2": 0.007861938138491453
+    },
+    {
+      "held_out_patient": "P16",
+      "sample": "P16_T1",
+      "spots": 2262,
+      "focal_r2": -0.004439231917525044,
+      "focal_plus_neighbourhood_r2": -0.014277263041535981,
+      "context_minus_focal_r2": -0.009838031124010937
+    },
+    {
+      "held_out_patient": "P17",
+      "sample": "P17_B1",
+      "spots": 1522,
+      "focal_r2": -0.011537041189384034,
+      "focal_plus_neighbourhood_r2": -0.009604026532959775,
+      "context_minus_focal_r2": 0.001933014656424259
+    },
+    {
+      "held_out_patient": "P17",
+      "sample": "P17_T1",
+      "spots": 2658,
+      "focal_r2": 0.06712519908739678,
+      "focal_plus_neighbourhood_r2": 0.06549474861988203,
+      "context_minus_focal_r2": -0.0016304504675147546
+    },
+    {
+      "held_out_patient": "P19",
+      "sample": "P19_B1",
+      "spots": 2197,
+      "focal_r2": -0.12207223664430655,
+      "focal_plus_neighbourhood_r2": -0.12504908917640356,
+      "context_minus_focal_r2": -0.0029768525320970074
+    },
+    {
+      "held_out_patient": "P19",
+      "sample": "P19_T1",
+      "spots": 2512,
+      "focal_r2": 0.04297435930303062,
+      "focal_plus_neighbourhood_r2": 0.047654999843964374,
+      "context_minus_focal_r2": 0.004680640540933756
+    },
+    {
+      "held_out_patient": "P24",
+      "sample": "P24_B1",
+      "spots": 2581,
+      "focal_r2": -0.012032654247917218,
+      "focal_plus_neighbourhood_r2": -0.005948685613635263,
+      "context_minus_focal_r2": 0.0060839686342819554
+    },
+    {
+      "held_out_patient": "P24",
+      "sample": "P24_T1",
+      "spots": 3426,
+      "focal_r2": 0.04529571716348013,
+      "focal_plus_neighbourhood_r2": 0.04738187866298249,
+      "context_minus_focal_r2": 0.002086161499502359
+    },
+    {
+      "held_out_patient": "P25",
+      "sample": "P25_B1",
+      "spots": 1965,
+      "focal_r2": -0.0329507748541753,
+      "focal_plus_neighbourhood_r2": -0.031659703487312285,
+      "context_minus_focal_r2": 0.001291071366863017
+    },
+    {
+      "held_out_patient": "P25",
+      "sample": "P25_T1",
+      "spots": 1308,
+      "focal_r2": -0.03724005090331084,
+      "focal_plus_neighbourhood_r2": -0.05166085754411043,
+      "context_minus_focal_r2": -0.014420806640799588
+    }
+  ],
+  "patient_summary": [
+    {
+      "patient": "P10",
+      "mean_delta_r2": 0.0011568707975997405,
+      "samples": 2
+    },
+    {
+      "patient": "P11",
+      "mean_delta_r2": 0.006042793189099838,
+      "samples": 2
+    },
+    {
+      "patient": "P15",
+      "mean_delta_r2": 0.002527892889018113,
+      "samples": 2
+    },
+    {
+      "patient": "P16",
+      "mean_delta_r2": -0.000988046492759742,
+      "samples": 2
+    },
+    {
+      "patient": "P17",
+      "mean_delta_r2": 0.00015128209445475216,
+      "samples": 2
+    },
+    {
+      "patient": "P19",
+      "mean_delta_r2": 0.0008518940044183743,
+      "samples": 2
+    },
+    {
+      "patient": "P24",
+      "mean_delta_r2": 0.004085065066892157,
+      "samples": 2
+    },
+    {
+      "patient": "P25",
+      "mean_delta_r2": -0.006564867636968286,
+      "samples": 2
+    }
+  ],
+  "mean_patient_delta_r2": 0.0009078604889693684,
+  "median_patient_delta_r2": 0.0010043824010090574,
+  "patients_with_positive_delta": 6,
+  "bootstrap_95ci_mean_delta_r2": [
+    -0.0016333144186101503,
+    0.003156079136332042
+  ],
+  "interpretation": "Patient-held-out validation of non-game spatial context; molecular proxy only, not causal or clinical validation."
+}

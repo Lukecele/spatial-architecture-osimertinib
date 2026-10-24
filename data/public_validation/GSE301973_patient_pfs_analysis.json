@@ -1,0 +1,303 @@
+{
+  "accession": "GSE301973",
+  "cohort_description": "Four EGFR-mutant NSCLC pre-treatment patients profiled via Visium HD",
+  "sample_position_source": "biological_sample_metadata.xlsx",
+  "mapping_verified": true,
+  "patients": [
+    {
+      "slide": "A",
+      "patient_id": "s1_PFS_69",
+      "sample_position": "Left",
+      "PFS_months": 69.0,
+      "PFS_group": "long_PFS",
+      "total_cells": 14605,
+      "tumor_cells": 3655,
+      "tumor_fraction": 0.250256761383088,
+      "cell_type_composition": {
+        "Tumor cell": 3655,
+        "Alveolar epithelial cell": 655,
+        "Endothelial cell": 5457,
+        "Myeloid cell": 1011,
+        "Plasmablast": 2092,
+        "Lymphocyte": 1135,
+        "Stromal cell": 594,
+        "Airway epithelial cell": 6
+      },
+      "cell_type_fractions": {
+        "Tumor cell": 0.250256761383088,
+        "Alveolar epithelial cell": 0.04484765491270113,
+        "Endothelial cell": 0.3736391646696337,
+        "Myeloid cell": 0.06922286888052037,
+        "Plasmablast": 0.14323861691201642,
+        "Lymphocyte": 0.07771311194796303,
+        "Stromal cell": 0.040671003081136595,
+        "Airway epithelial cell": 0.0004108182129407737
+      },
+      "tumor_neighborhood_contacts": {
+        "Airway epithelial cell": 0.00031919744642042863,
+        "Alveolar epithelial cell": 0.02466940264477884,
+        "Endothelial cell": 0.2292749658002736,
+        "Lymphocyte": 0.02216142270861833,
+        "Myeloid cell": 0.04500683994528044,
+        "Plasmablast": 0.04933880528955768,
+        "Stromal cell": 0.0196078431372549,
+        "Tumor cell": 0.6096215230278158
+      },
+      "key_tumor_contacts": {
+        "homotypic_tumor": 0.6096215230278158,
+        "endothelial": 0.2292749658002736,
+        "stromal": 0.0196078431372549,
+        "immune": 0.11650706794345644
+      },
+      "all_cells_module_means": {
+        "egfr_bypass": 0.1389455795288086,
+        "emt": 0.3210591673851013,
+        "stem_like": 0.1894458383321762,
+        "spp1_cd44": 0.40783315896987915,
+        "proliferation": 0.06390925496816635
+      },
+      "tumor_module_means": {
+        "egfr_bypass": 0.3506857454776764,
+        "emt": 0.2519591450691223,
+        "stem_like": 0.27656763792037964,
+        "spp1_cd44": 0.5135303139686584,
+        "proliferation": 0.12041742354631424
+      }
+    },
+    {
+      "slide": "A",
+      "patient_id": "s2_PFS_22",
+      "sample_position": "Right",
+      "PFS_months": 22.0,
+      "PFS_group": "long_PFS",
+      "total_cells": 31056,
+      "tumor_cells": 9327,
+      "tumor_fraction": 0.30032843894899536,
+      "cell_type_composition": {
+        "Endothelial cell": 6798,
+        "Tumor cell": 9327,
+        "Stromal cell": 5242,
+        "Plasmablast": 4464,
+        "Myeloid cell": 940,
+        "Airway epithelial cell": 44,
+        "Lymphocyte": 2541,
+        "Alveolar epithelial cell": 1700
+      },
+      "cell_type_fractions": {
+        "Endothelial cell": 0.2188948995363215,
+        "Tumor cell": 0.30032843894899536,
+        "Stromal cell": 0.16879185986604842,
+        "Plasmablast": 0.1437403400309119,
+        "Myeloid cell": 0.030267903142709943,
+        "Airway epithelial cell": 0.001416795466254508,
+        "Lymphocyte": 0.08181993817619784,
+        "Alveolar epithelial cell": 0.054739824832560534
+      },
+      "tumor_neighborhood_contacts": {
+        "Airway epithelial cell": 0.002126442943425896,
+        "Alveolar epithelial cell": 0.03228976805689575,
+        "Endothelial cell": 0.12629998927843894,
+        "Lymphocyte": 0.0481934169615096,
+        "Myeloid cell": 0.03373717879989993,
+        "Plasmablast": 0.03275436903613166,
+        "Stromal cell": 0.04772881598227369,
+        "Tumor cell": 0.6768700189414245
+      },
+      "key_tumor_contacts": {
+        "homotypic_tumor": 0.6768700189414245,
+        "endothelial": 0.12629998927843894,
+        "stromal": 0.04772881598227369,
+        "immune": 0.11468496479754119
+      },
+      "all_cells_module_means": {
+        "egfr_bypass": 0.11035290360450745,
+        "emt": 0.3037935495376587,
+        "stem_like": 0.33373355865478516,
+        "spp1_cd44": 0.623838484287262,
+        "proliferation": 0.039143141359090805
+      },
+      "tumor_module_means": {
+        "egfr_bypass": 0.22443722188472748,
+        "emt": 0.16897284984588623,
+        "stem_like": 0.6442591547966003,
+        "spp1_cd44": 1.1955711841583252,
+        "proliferation": 0.06978020071983337
+      }
+    },
+    {
+      "slide": "C",
+      "patient_id": "s3_PFS_15",
+      "sample_position": "Left",
+      "PFS_months": 15.0,
+      "PFS_group": "short_PFS",
+      "total_cells": 60507,
+      "tumor_cells": 46865,
+      "tumor_fraction": 0.7745384831507098,
+      "cell_type_composition": {
+        "Tumor cell": 46865,
+        "Stromal cell": 3113,
+        "Plasmablast": 6137,
+        "Endothelial cell": 3069,
+        "Lymphocyte": 591,
+        "Airway epithelial cell": 24,
+        "Alveolar epithelial cell": 103,
+        "Myeloid cell": 605
+      },
+      "cell_type_fractions": {
+        "Tumor cell": 0.7745384831507098,
+        "Stromal cell": 0.0514485927248087,
+        "Plasmablast": 0.1014262812567141,
+        "Endothelial cell": 0.050721404135058754,
+        "Lymphocyte": 0.009767464921414051,
+        "Airway epithelial cell": 0.0003966483216817889,
+        "Alveolar epithelial cell": 0.0017022823805510107,
+        "Myeloid cell": 0.009998843109061762
+      },
+      "tumor_neighborhood_contacts": {
+        "Airway epithelial cell": 0.0003414061666488851,
+        "Alveolar epithelial cell": 0.0010099932430029518,
+        "Endothelial cell": 0.027273373875315622,
+        "Lymphocyte": 0.0030121981578292256,
+        "Myeloid cell": 0.0032646964685799636,
+        "Plasmablast": 0.051573669049397204,
+        "Stromal cell": 0.03495145631067961,
+        "Tumor cell": 0.8785732067285466
+      },
+      "key_tumor_contacts": {
+        "homotypic_tumor": 0.8785732067285466,
+        "endothelial": 0.027273373875315622,
+        "stromal": 0.03495145631067961,
+        "immune": 0.05785056367580639
+      },
+      "all_cells_module_means": {
+        "egfr_bypass": 0.12384254485368729,
+        "emt": 0.1371571570634842,
+        "stem_like": 0.11626490950584412,
+        "spp1_cd44": 0.16554996371269226,
+        "proliferation": 0.11056897044181824
+      },
+      "tumor_module_means": {
+        "egfr_bypass": 0.13965971767902374,
+        "emt": 0.1150144711136818,
+        "stem_like": 0.1197047159075737,
+        "spp1_cd44": 0.1329408884048462,
+        "proliferation": 0.12501685321331024
+      }
+    },
+    {
+      "slide": "C",
+      "patient_id": "s4_PFS_12",
+      "sample_position": "Right",
+      "PFS_months": 12.0,
+      "PFS_group": "short_PFS",
+      "total_cells": 105123,
+      "tumor_cells": 37073,
+      "tumor_fraction": 0.3526630708788752,
+      "cell_type_composition": {
+        "Endothelial cell": 29807,
+        "Tumor cell": 37073,
+        "Lymphocyte": 10196,
+        "Myeloid cell": 4574,
+        "Alveolar epithelial cell": 687,
+        "Stromal cell": 6770,
+        "Airway epithelial cell": 1774,
+        "Plasmablast": 14242
+      },
+      "cell_type_fractions": {
+        "Endothelial cell": 0.28354403888777907,
+        "Tumor cell": 0.3526630708788752,
+        "Lymphocyte": 0.096991143707847,
+        "Myeloid cell": 0.043510934809699114,
+        "Alveolar epithelial cell": 0.006535201620958306,
+        "Stromal cell": 0.06440074959808986,
+        "Airway epithelial cell": 0.016875469687889423,
+        "Plasmablast": 0.135479390808862
+      },
+      "tumor_neighborhood_contacts": {
+        "Airway epithelial cell": 0.00969258849656983,
+        "Alveolar epithelial cell": 0.006851347341731179,
+        "Endothelial cell": 0.21842940504769867,
+        "Lymphocyte": 0.021601524919303356,
+        "Myeloid cell": 0.021291326122335214,
+        "Plasmablast": 0.0370620127855852,
+        "Stromal cell": 0.044781017631879444,
+        "Tumor cell": 0.6402907776548971
+      },
+      "key_tumor_contacts": {
+        "homotypic_tumor": 0.6402907776548971,
+        "endothelial": 0.21842940504769867,
+        "stromal": 0.044781017631879444,
+        "immune": 0.07995486382722378
+      },
+      "all_cells_module_means": {
+        "egfr_bypass": 0.1331583708524704,
+        "emt": 0.27902573347091675,
+        "stem_like": 0.23220765590667725,
+        "spp1_cd44": 0.3584977090358734,
+        "proliferation": 0.0404476560652256
+      },
+      "tumor_module_means": {
+        "egfr_bypass": 0.23377938568592072,
+        "emt": 0.18191713094711304,
+        "stem_like": 0.3395611047744751,
+        "spp1_cd44": 0.4112725555896759,
+        "proliferation": 0.07148312777280807
+      }
+    }
+  ],
+  "group_comparison": {
+    "mean_tumor_fraction": {
+      "long_PFS": 0.2752926001660417,
+      "short_PFS": 0.5636007770147925
+    },
+    "mean_tumor_homotypic_contact": {
+      "long_PFS": 0.6432457709846202,
+      "short_PFS": 0.7594319921917219
+    },
+    "mean_tumor_endothelial_contact": {
+      "long_PFS": 0.17778747753935625,
+      "short_PFS": 0.12285138946150714
+    },
+    "mean_tumor_stromal_contact": {
+      "long_PFS": 0.033668329559764294,
+      "short_PFS": 0.03986623697127953
+    },
+    "mean_tumor_immune_contact": {
+      "long_PFS": 0.11559601637049882,
+      "short_PFS": 0.06890271375151508
+    },
+    "mean_tumor_modules": {
+      "egfr_bypass": {
+        "long_PFS": 0.28756148368120193,
+        "short_PFS": 0.18671955168247223
+      },
+      "emt": {
+        "long_PFS": 0.21046599745750427,
+        "short_PFS": 0.14846580103039742
+      },
+      "stem_like": {
+        "long_PFS": 0.46041339635849,
+        "short_PFS": 0.2296329103410244
+      },
+      "spp1_cd44": {
+        "long_PFS": 0.8545507490634918,
+        "short_PFS": 0.27210672199726105
+      },
+      "proliferation": {
+        "long_PFS": 0.0950988121330738,
+        "short_PFS": 0.09824999049305916
+      }
+    }
+  },
+  "spearman_correlations_with_PFS": {
+    "tumor_fraction": -0.7999999999999999,
+    "homotypic_tumor_contact": -0.39999999999999997,
+    "endothelial_contact": 0.39999999999999997,
+    "tumor_egfr_bypass": 0.39999999999999997,
+    "tumor_emt": 0.39999999999999997,
+    "tumor_stem_like": 0.0,
+    "tumor_spp1_cd44": 0.6000000000000001,
+    "tumor_proliferation": 0.0
+  },
+  "caveat": "N=4 patients (2 long-PFS, 2 short-PFS) pre-treatment. Associations between spatial metrics and PFS are exploratory and hypothesis-generating. They demonstrate that spatial tumor-microenvironment contact and drug-resistance programs are quantifiable at subcellular Visium HD resolution."
+}

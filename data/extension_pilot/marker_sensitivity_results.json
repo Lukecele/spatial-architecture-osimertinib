@@ -1,0 +1,414 @@
+{
+  "reference": {
+    "rows": [
+      {
+        "sample": "P10_B1",
+        "composition_block_cv_r2": 0.008891678487570553,
+        "game_block_cv_r2": 0.006067926014452052,
+        "game_in_sample_r2": 0.015097296018961925
+      },
+      {
+        "sample": "P10_T1",
+        "composition_block_cv_r2": -0.004827726048722614,
+        "game_block_cv_r2": -0.010082793594906825,
+        "game_in_sample_r2": 0.020147073320376685
+      },
+      {
+        "sample": "P11_B1",
+        "composition_block_cv_r2": -0.0014042920648351664,
+        "game_block_cv_r2": 0.0069461237503171125,
+        "game_in_sample_r2": 0.014755972103710713
+      },
+      {
+        "sample": "P11_T1",
+        "composition_block_cv_r2": 0.13750112603994136,
+        "game_block_cv_r2": 0.12986999566568602,
+        "game_in_sample_r2": 0.19202229190770448
+      },
+      {
+        "sample": "P15_B1",
+        "composition_block_cv_r2": -0.0004771637027807252,
+        "game_block_cv_r2": -0.004098364641290431,
+        "game_in_sample_r2": 0.0062729872922397956
+      },
+      {
+        "sample": "P15_T1",
+        "composition_block_cv_r2": -0.0060149412735308605,
+        "game_block_cv_r2": -0.011199621764060863,
+        "game_in_sample_r2": 0.006590176823942473
+      },
+      {
+        "sample": "P16_B1",
+        "composition_block_cv_r2": -3.8080578469656956e-05,
+        "game_block_cv_r2": -0.004331318238245618,
+        "game_in_sample_r2": 0.003544648446247578
+      },
+      {
+        "sample": "P16_T1",
+        "composition_block_cv_r2": 0.032678772158763025,
+        "game_block_cv_r2": 0.028933126870386072,
+        "game_in_sample_r2": 0.052941893246786664
+      },
+      {
+        "sample": "P17_B1",
+        "composition_block_cv_r2": -0.012741840462900722,
+        "game_block_cv_r2": -0.008123798267016369,
+        "game_in_sample_r2": 0.017618575808016068
+      },
+      {
+        "sample": "P17_T1",
+        "composition_block_cv_r2": 0.12288057027113919,
+        "game_block_cv_r2": 0.13276023482335209,
+        "game_in_sample_r2": 0.15966292487073697
+      },
+      {
+        "sample": "P19_B1",
+        "composition_block_cv_r2": -0.00325145658889725,
+        "game_block_cv_r2": -0.005453504978202295,
+        "game_in_sample_r2": 0.005912210849510213
+      },
+      {
+        "sample": "P19_T1",
+        "composition_block_cv_r2": 0.0536773842427708,
+        "game_block_cv_r2": 0.055397747762284455,
+        "game_in_sample_r2": 0.08075328838040063
+      },
+      {
+        "sample": "P24_B1",
+        "composition_block_cv_r2": 0.0020977241619313247,
+        "game_block_cv_r2": 0.0007530803244705231,
+        "game_in_sample_r2": 0.008722881824991369
+      },
+      {
+        "sample": "P24_T1",
+        "composition_block_cv_r2": 0.12742678398744345,
+        "game_block_cv_r2": 0.11513642224677034,
+        "game_in_sample_r2": 0.16355552985347044
+      },
+      {
+        "sample": "P25_B1",
+        "composition_block_cv_r2": -0.013798067362031707,
+        "game_block_cv_r2": -0.013831041638123764,
+        "game_in_sample_r2": 0.0029609915891880556
+      },
+      {
+        "sample": "P25_T1",
+        "composition_block_cv_r2": -0.001836999620871138,
+        "game_block_cv_r2": -0.020218710300197396,
+        "game_in_sample_r2": 0.014898891986762308
+      }
+    ],
+    "mean_composition_block_cv_r2": 0.02754771697790749,
+    "mean_game_block_cv_r2": 0.024907844002229694,
+    "positive_game_advantage_count": 4
+  },
+  "remove_vim_from_resistant": {
+    "rows": [
+      {
+        "sample": "P10_B1",
+        "composition_block_cv_r2": -0.0013354510576124579,
+        "game_block_cv_r2": -0.005977654208497274,
+        "game_in_sample_r2": 0.007134656270897599
+      },
+      {
+        "sample": "P10_T1",
+        "composition_block_cv_r2": 0.020388617705116685,
+        "game_block_cv_r2": 0.02050460278992383,
+        "game_in_sample_r2": 0.04266508166906979
+      },
+      {
+        "sample": "P11_B1",
+        "composition_block_cv_r2": 0.0007128205669353349,
+        "game_block_cv_r2": 0.0036197882376782786,
+        "game_in_sample_r2": 0.012501525674016745
+      },
+      {
+        "sample": "P11_T1",
+        "composition_block_cv_r2": 0.1552637029406274,
+        "game_block_cv_r2": 0.1377928470939327,
+        "game_in_sample_r2": 0.19069492059548698
+      },
+      {
+        "sample": "P15_B1",
+        "composition_block_cv_r2": 0.000310767591158001,
+        "game_block_cv_r2": -0.0007887217992932349,
+        "game_in_sample_r2": 0.005847508927763312
+      },
+      {
+        "sample": "P15_T1",
+        "composition_block_cv_r2": -0.005856539612499212,
+        "game_block_cv_r2": -0.008815885166917115,
+        "game_in_sample_r2": 0.008002942038391803
+      },
+      {
+        "sample": "P16_B1",
+        "composition_block_cv_r2": -0.0009855396977942465,
+        "game_block_cv_r2": -0.005472428617268044,
+        "game_in_sample_r2": 0.002493615546594108
+      },
+      {
+        "sample": "P16_T1",
+        "composition_block_cv_r2": 0.0344089205281648,
+        "game_block_cv_r2": 0.03398860639121315,
+        "game_in_sample_r2": 0.0543254691026378
+      },
+      {
+        "sample": "P17_B1",
+        "composition_block_cv_r2": -0.016076231710221656,
+        "game_block_cv_r2": -0.015288371653778832,
+        "game_in_sample_r2": 0.014587676480347533
+      },
+      {
+        "sample": "P17_T1",
+        "composition_block_cv_r2": 0.12835471788874175,
+        "game_block_cv_r2": 0.13542620625176005,
+        "game_in_sample_r2": 0.16144057457488092
+      },
+      {
+        "sample": "P19_B1",
+        "composition_block_cv_r2": -0.00732960144064454,
+        "game_block_cv_r2": -0.010578143967410636,
+        "game_in_sample_r2": 0.0024244650761297004
+      },
+      {
+        "sample": "P19_T1",
+        "composition_block_cv_r2": 0.05483897895386036,
+        "game_block_cv_r2": 0.05698497840250227,
+        "game_in_sample_r2": 0.08178770676915503
+      },
+      {
+        "sample": "P24_B1",
+        "composition_block_cv_r2": -0.0025734127550205432,
+        "game_block_cv_r2": -0.005704480991842065,
+        "game_in_sample_r2": 0.003236248364290928
+      },
+      {
+        "sample": "P24_T1",
+        "composition_block_cv_r2": 0.13672119785110837,
+        "game_block_cv_r2": 0.1252910264043663,
+        "game_in_sample_r2": 0.1724528411813009
+      },
+      {
+        "sample": "P25_B1",
+        "composition_block_cv_r2": -0.012793610401322209,
+        "game_block_cv_r2": -0.014767988575618674,
+        "game_in_sample_r2": 0.0023531725807159898
+      },
+      {
+        "sample": "P25_T1",
+        "composition_block_cv_r2": 0.011369927220491127,
+        "game_block_cv_r2": -0.0030985648365193796,
+        "game_in_sample_r2": 0.03266988276162086
+      }
+    ],
+    "mean_composition_block_cv_r2": 0.03096370403569306,
+    "mean_game_block_cv_r2": 0.027694738484639457,
+    "positive_game_advantage_count": 5
+  },
+  "expanded_epithelial_sensitive": {
+    "rows": [
+      {
+        "sample": "P10_B1",
+        "composition_block_cv_r2": 0.008203543205440922,
+        "game_block_cv_r2": 0.010785809264515112,
+        "game_in_sample_r2": 0.02152825858344165
+      },
+      {
+        "sample": "P10_T1",
+        "composition_block_cv_r2": 0.017482785853380367,
+        "game_block_cv_r2": 0.013472902556242006,
+        "game_in_sample_r2": 0.035709609490890304
+      },
+      {
+        "sample": "P11_B1",
+        "composition_block_cv_r2": 0.00504097668904413,
+        "game_block_cv_r2": 0.006150746274745322,
+        "game_in_sample_r2": 0.01548726987996596
+      },
+      {
+        "sample": "P11_T1",
+        "composition_block_cv_r2": 0.0772183584112689,
+        "game_block_cv_r2": 0.06335557115734092,
+        "game_in_sample_r2": 0.1355299133713057
+      },
+      {
+        "sample": "P15_B1",
+        "composition_block_cv_r2": -0.0016365722488056456,
+        "game_block_cv_r2": -0.00010671067250678234,
+        "game_in_sample_r2": 0.009955758077331955
+      },
+      {
+        "sample": "P15_T1",
+        "composition_block_cv_r2": -0.0037859862470066563,
+        "game_block_cv_r2": -0.01362787877988425,
+        "game_in_sample_r2": 0.008892194395899833
+      },
+      {
+        "sample": "P16_B1",
+        "composition_block_cv_r2": 0.0006832776368895788,
+        "game_block_cv_r2": -0.001665827155458155,
+        "game_in_sample_r2": 0.004862051320063565
+      },
+      {
+        "sample": "P16_T1",
+        "composition_block_cv_r2": 0.05667826111464169,
+        "game_block_cv_r2": 0.05422666208988158,
+        "game_in_sample_r2": 0.07390331782805792
+      },
+      {
+        "sample": "P17_B1",
+        "composition_block_cv_r2": -0.017248649833561336,
+        "game_block_cv_r2": -0.0167897187832593,
+        "game_in_sample_r2": 0.014954125867905899
+      },
+      {
+        "sample": "P17_T1",
+        "composition_block_cv_r2": 0.11921201527209269,
+        "game_block_cv_r2": 0.1344483031440048,
+        "game_in_sample_r2": 0.16102259537675534
+      },
+      {
+        "sample": "P19_B1",
+        "composition_block_cv_r2": -0.004214599418457254,
+        "game_block_cv_r2": -0.00605434839494956,
+        "game_in_sample_r2": 0.00683122469787123
+      },
+      {
+        "sample": "P19_T1",
+        "composition_block_cv_r2": 0.046784164413491536,
+        "game_block_cv_r2": 0.04816006670808126,
+        "game_in_sample_r2": 0.06819425449916838
+      },
+      {
+        "sample": "P24_B1",
+        "composition_block_cv_r2": 0.0008166661566824107,
+        "game_block_cv_r2": 0.0015742117696120328,
+        "game_in_sample_r2": 0.011001788269206947
+      },
+      {
+        "sample": "P24_T1",
+        "composition_block_cv_r2": 0.19326417569733678,
+        "game_block_cv_r2": 0.18241221067832114,
+        "game_in_sample_r2": 0.2273518574754395
+      },
+      {
+        "sample": "P25_B1",
+        "composition_block_cv_r2": -0.014007799827478351,
+        "game_block_cv_r2": -0.015429892414583701,
+        "game_in_sample_r2": 0.002629138598312042
+      },
+      {
+        "sample": "P25_T1",
+        "composition_block_cv_r2": -0.0037103258326418587,
+        "game_block_cv_r2": -0.006751648182667047,
+        "game_in_sample_r2": 0.026714538778630947
+      }
+    ],
+    "mean_composition_block_cv_r2": 0.03004876819014487,
+    "mean_game_block_cv_r2": 0.02838502870371471,
+    "positive_game_advantage_count": 7
+  },
+  "expanded_caf": {
+    "rows": [
+      {
+        "sample": "P10_B1",
+        "composition_block_cv_r2": 0.00797178448564928,
+        "game_block_cv_r2": 0.004522218087699925,
+        "game_in_sample_r2": 0.013188394427470884
+      },
+      {
+        "sample": "P10_T1",
+        "composition_block_cv_r2": -0.002394480841536595,
+        "game_block_cv_r2": -0.008000735700370853,
+        "game_in_sample_r2": 0.021420138943908595
+      },
+      {
+        "sample": "P11_B1",
+        "composition_block_cv_r2": -0.0015959359033070886,
+        "game_block_cv_r2": 0.004586633255868944,
+        "game_in_sample_r2": 0.013563960946206821
+      },
+      {
+        "sample": "P11_T1",
+        "composition_block_cv_r2": 0.13689944530375775,
+        "game_block_cv_r2": 0.133375408096698,
+        "game_in_sample_r2": 0.19045702927953723
+      },
+      {
+        "sample": "P15_B1",
+        "composition_block_cv_r2": -0.00027700467741920143,
+        "game_block_cv_r2": -0.004033206790397648,
+        "game_in_sample_r2": 0.006774406293891921
+      },
+      {
+        "sample": "P15_T1",
+        "composition_block_cv_r2": -0.005869203335351791,
+        "game_block_cv_r2": -0.006367133654306079,
+        "game_in_sample_r2": 0.008512514497384549
+      },
+      {
+        "sample": "P16_B1",
+        "composition_block_cv_r2": -0.001924411101660084,
+        "game_block_cv_r2": -0.00417427577785312,
+        "game_in_sample_r2": 0.003687028315268348
+      },
+      {
+        "sample": "P16_T1",
+        "composition_block_cv_r2": 0.03153910350916933,
+        "game_block_cv_r2": 0.026964246153212468,
+        "game_in_sample_r2": 0.051572643682676556
+      },
+      {
+        "sample": "P17_B1",
+        "composition_block_cv_r2": -0.01446085136003239,
+        "game_block_cv_r2": -0.020169374674827933,
+        "game_in_sample_r2": 0.008786757776539367
+      },
+      {
+        "sample": "P17_T1",
+        "composition_block_cv_r2": 0.12373132797089981,
+        "game_block_cv_r2": 0.13319638700634173,
+        "game_in_sample_r2": 0.16126660333498044
+      },
+      {
+        "sample": "P19_B1",
+        "composition_block_cv_r2": -0.004892913214919581,
+        "game_block_cv_r2": -0.008206397631403073,
+        "game_in_sample_r2": 0.005240974445568147
+      },
+      {
+        "sample": "P19_T1",
+        "composition_block_cv_r2": 0.04231299165661895,
+        "game_block_cv_r2": 0.04616069945371348,
+        "game_in_sample_r2": 0.07411349269075651
+      },
+      {
+        "sample": "P24_B1",
+        "composition_block_cv_r2": 0.0026140332276664013,
+        "game_block_cv_r2": 0.0031264025084591918,
+        "game_in_sample_r2": 0.009811127808197262
+      },
+      {
+        "sample": "P24_T1",
+        "composition_block_cv_r2": 0.12640463769568433,
+        "game_block_cv_r2": 0.11713436457253101,
+        "game_in_sample_r2": 0.16428499767226112
+      },
+      {
+        "sample": "P25_B1",
+        "composition_block_cv_r2": -0.01320465473257837,
+        "game_block_cv_r2": -0.015901283203009875,
+        "game_in_sample_r2": 0.003328261642815189
+      },
+      {
+        "sample": "P25_T1",
+        "composition_block_cv_r2": -0.005261723266568374,
+        "game_block_cv_r2": -0.022572100926658845,
+        "game_in_sample_r2": 0.011793104714178826
+      }
+    ],
+    "mean_composition_block_cv_r2": 0.026349509088504523,
+    "mean_game_block_cv_r2": 0.023727615673481084,
+    "positive_game_advantage_count": 4
+  }
+}

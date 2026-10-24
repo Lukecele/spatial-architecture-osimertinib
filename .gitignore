@@ -30,8 +30,17 @@ MANIFEST
 data/*
 !data/cache/
 !data/cache/**
+!data/public_validation/*.json
+!data/public_validation/*.md
+!data/extension_pilot/*.json
+!data/extension_pilot/*.md
 *.tar.gz
 *.mtx.gz
+*.tar
+*.h5
+*.xlsx
+*.tiff
+*.jpg
 
 # IDE & OS
 .DS_Store

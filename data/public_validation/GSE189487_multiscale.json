@@ -1,0 +1,314 @@
+{
+  "accession": "GSE189487",
+  "radii_um": [
+    55.0,
+    100.0,
+    150.0,
+    200.0,
+    300.0,
+    500.0
+  ],
+  "results": {
+    "55.0": {
+      "radius_um": 55.0,
+      "samples": [
+        {
+          "focal_r2": -1.0130364426022203,
+          "focal_plus_neighbourhood_r2": -1.0130364426022203,
+          "context_minus_focal_r2": 0.0,
+          "spots": 4095,
+          "held_out_sample": "GSM5702473_TD1"
+        },
+        {
+          "focal_r2": -1.3028825099585188,
+          "focal_plus_neighbourhood_r2": -1.3028825099585202,
+          "context_minus_focal_r2": -1.3322676295501878e-15,
+          "spots": 4992,
+          "held_out_sample": "GSM5702474_TD2"
+        },
+        {
+          "focal_r2": -0.2786039417805999,
+          "focal_plus_neighbourhood_r2": -0.2786039417805999,
+          "context_minus_focal_r2": 0.0,
+          "spots": 1140,
+          "held_out_sample": "GSM5702475_TD3"
+        },
+        {
+          "focal_r2": -0.5476526902740384,
+          "focal_plus_neighbourhood_r2": -0.5476526902740391,
+          "context_minus_focal_r2": -6.661338147750939e-16,
+          "spots": 1700,
+          "held_out_sample": "GSM5702476_TD5"
+        },
+        {
+          "focal_r2": -0.22467442287332307,
+          "focal_plus_neighbourhood_r2": -0.2246744228733244,
+          "context_minus_focal_r2": -1.3322676295501878e-15,
+          "spots": 3911,
+          "held_out_sample": "GSM5702477_TD6"
+        },
+        {
+          "focal_r2": -0.49714543798099875,
+          "focal_plus_neighbourhood_r2": -0.4971454379810001,
+          "context_minus_focal_r2": -1.3322676295501878e-15,
+          "spots": 1760,
+          "held_out_sample": "GSM5702478_TD8"
+        }
+      ],
+      "mean_delta_r2": -7.771561172376096e-16,
+      "median_delta_r2": -9.992007221626409e-16,
+      "positive_samples": 0
+    },
+    "100.0": {
+      "radius_um": 100.0,
+      "samples": [
+        {
+          "focal_r2": -1.0130364426022203,
+          "focal_plus_neighbourhood_r2": -1.0045890469687846,
+          "context_minus_focal_r2": 0.008447395633435661,
+          "spots": 4095,
+          "held_out_sample": "GSM5702473_TD1"
+        },
+        {
+          "focal_r2": -1.3028825099585188,
+          "focal_plus_neighbourhood_r2": -1.6136538543655714,
+          "context_minus_focal_r2": -0.31077134440705256,
+          "spots": 4992,
+          "held_out_sample": "GSM5702474_TD2"
+        },
+        {
+          "focal_r2": -0.2786039417805999,
+          "focal_plus_neighbourhood_r2": -0.2194058926884268,
+          "context_minus_focal_r2": 0.05919804909217308,
+          "spots": 1140,
+          "held_out_sample": "GSM5702475_TD3"
+        },
+        {
+          "focal_r2": -0.5476526902740384,
+          "focal_plus_neighbourhood_r2": -0.3907655963757408,
+          "context_minus_focal_r2": 0.15688709389829758,
+          "spots": 1700,
+          "held_out_sample": "GSM5702476_TD5"
+        },
+        {
+          "focal_r2": -0.22467442287332307,
+          "focal_plus_neighbourhood_r2": -0.18811088336727777,
+          "context_minus_focal_r2": 0.036563539506045295,
+          "spots": 3911,
+          "held_out_sample": "GSM5702477_TD6"
+        },
+        {
+          "focal_r2": -0.49714543798099875,
+          "focal_plus_neighbourhood_r2": -0.5636079682805979,
+          "context_minus_focal_r2": -0.06646253029959914,
+          "spots": 1760,
+          "held_out_sample": "GSM5702478_TD8"
+        }
+      ],
+      "mean_delta_r2": -0.019356299429450014,
+      "median_delta_r2": 0.022505467569740478,
+      "positive_samples": 4
+    },
+    "150.0": {
+      "radius_um": 150.0,
+      "samples": [
+        {
+          "focal_r2": -1.0130364426022203,
+          "focal_plus_neighbourhood_r2": -0.9955953590850146,
+          "context_minus_focal_r2": 0.017441083517205636,
+          "spots": 4095,
+          "held_out_sample": "GSM5702473_TD1"
+        },
+        {
+          "focal_r2": -1.3028825099585188,
+          "focal_plus_neighbourhood_r2": -1.9048270471379891,
+          "context_minus_focal_r2": -0.6019445371794703,
+          "spots": 4992,
+          "held_out_sample": "GSM5702474_TD2"
+        },
+        {
+          "focal_r2": -0.2786039417805999,
+          "focal_plus_neighbourhood_r2": -0.18633707022414892,
+          "context_minus_focal_r2": 0.09226687155645097,
+          "spots": 1140,
+          "held_out_sample": "GSM5702475_TD3"
+        },
+        {
+          "focal_r2": -0.5476526902740384,
+          "focal_plus_neighbourhood_r2": -0.2573907705095071,
+          "context_minus_focal_r2": 0.2902619197645313,
+          "spots": 1700,
+          "held_out_sample": "GSM5702476_TD5"
+        },
+        {
+          "focal_r2": -0.22467442287332307,
+          "focal_plus_neighbourhood_r2": -0.16166180830048416,
+          "context_minus_focal_r2": 0.06301261457283891,
+          "spots": 3911,
+          "held_out_sample": "GSM5702477_TD6"
+        },
+        {
+          "focal_r2": -0.49714543798099875,
+          "focal_plus_neighbourhood_r2": -0.6457700113328175,
+          "context_minus_focal_r2": -0.14862457335181878,
+          "spots": 1760,
+          "held_out_sample": "GSM5702478_TD8"
+        }
+      ],
+      "mean_delta_r2": -0.047931103520043705,
+      "median_delta_r2": 0.04022684904502227,
+      "positive_samples": 4
+    },
+    "200.0": {
+      "radius_um": 200.0,
+      "samples": [
+        {
+          "focal_r2": -1.0130364426022203,
+          "focal_plus_neighbourhood_r2": -0.9880160006198522,
+          "context_minus_focal_r2": 0.02502044198236808,
+          "spots": 4095,
+          "held_out_sample": "GSM5702473_TD1"
+        },
+        {
+          "focal_r2": -1.3028825099585188,
+          "focal_plus_neighbourhood_r2": -2.1024204288214823,
+          "context_minus_focal_r2": -0.7995379188629634,
+          "spots": 4992,
+          "held_out_sample": "GSM5702474_TD2"
+        },
+        {
+          "focal_r2": -0.2786039417805999,
+          "focal_plus_neighbourhood_r2": -0.1579126676804854,
+          "context_minus_focal_r2": 0.12069127410011449,
+          "spots": 1140,
+          "held_out_sample": "GSM5702475_TD3"
+        },
+        {
+          "focal_r2": -0.5476526902740384,
+          "focal_plus_neighbourhood_r2": -0.2237366817601909,
+          "context_minus_focal_r2": 0.3239160085138475,
+          "spots": 1700,
+          "held_out_sample": "GSM5702476_TD5"
+        },
+        {
+          "focal_r2": -0.22467442287332307,
+          "focal_plus_neighbourhood_r2": -0.13681310452212858,
+          "context_minus_focal_r2": 0.08786131835119448,
+          "spots": 3911,
+          "held_out_sample": "GSM5702477_TD6"
+        },
+        {
+          "focal_r2": -0.49714543798099875,
+          "focal_plus_neighbourhood_r2": -0.7252801011403152,
+          "context_minus_focal_r2": -0.2281346631593164,
+          "spots": 1760,
+          "held_out_sample": "GSM5702478_TD8"
+        }
+      ],
+      "mean_delta_r2": -0.07836392317912588,
+      "median_delta_r2": 0.05644088016678128,
+      "positive_samples": 4
+    },
+    "300.0": {
+      "radius_um": 300.0,
+      "samples": [
+        {
+          "focal_r2": -1.0130364426022203,
+          "focal_plus_neighbourhood_r2": -0.9823149258794097,
+          "context_minus_focal_r2": 0.030721516722810538,
+          "spots": 4095,
+          "held_out_sample": "GSM5702473_TD1"
+        },
+        {
+          "focal_r2": -1.3028825099585188,
+          "focal_plus_neighbourhood_r2": -2.2481577034655005,
+          "context_minus_focal_r2": -0.9452751935069816,
+          "spots": 4992,
+          "held_out_sample": "GSM5702474_TD2"
+        },
+        {
+          "focal_r2": -0.2786039417805999,
+          "focal_plus_neighbourhood_r2": -0.15078010723473323,
+          "context_minus_focal_r2": 0.12782383454586665,
+          "spots": 1140,
+          "held_out_sample": "GSM5702475_TD3"
+        },
+        {
+          "focal_r2": -0.5476526902740384,
+          "focal_plus_neighbourhood_r2": -0.2683330734235443,
+          "context_minus_focal_r2": 0.2793196168504941,
+          "spots": 1700,
+          "held_out_sample": "GSM5702476_TD5"
+        },
+        {
+          "focal_r2": -0.22467442287332307,
+          "focal_plus_neighbourhood_r2": -0.11556537610730633,
+          "context_minus_focal_r2": 0.10910904676601674,
+          "spots": 3911,
+          "held_out_sample": "GSM5702477_TD6"
+        },
+        {
+          "focal_r2": -0.49714543798099875,
+          "focal_plus_neighbourhood_r2": -0.812604524509666,
+          "context_minus_focal_r2": -0.3154590865286673,
+          "spots": 1760,
+          "held_out_sample": "GSM5702478_TD8"
+        }
+      ],
+      "mean_delta_r2": -0.11896004419174348,
+      "median_delta_r2": 0.06991528174441364,
+      "positive_samples": 4
+    },
+    "500.0": {
+      "radius_um": 500.0,
+      "samples": [
+        {
+          "focal_r2": -1.0130364426022203,
+          "focal_plus_neighbourhood_r2": -0.9812490746265412,
+          "context_minus_focal_r2": 0.03178736797567905,
+          "spots": 4095,
+          "held_out_sample": "GSM5702473_TD1"
+        },
+        {
+          "focal_r2": -1.3028825099585188,
+          "focal_plus_neighbourhood_r2": -2.402937074496939,
+          "context_minus_focal_r2": -1.10005456453842,
+          "spots": 4992,
+          "held_out_sample": "GSM5702474_TD2"
+        },
+        {
+          "focal_r2": -0.2786039417805999,
+          "focal_plus_neighbourhood_r2": -0.1425094747839688,
+          "context_minus_focal_r2": 0.13609446699663108,
+          "spots": 1140,
+          "held_out_sample": "GSM5702475_TD3"
+        },
+        {
+          "focal_r2": -0.5476526902740384,
+          "focal_plus_neighbourhood_r2": -0.32547031065920495,
+          "context_minus_focal_r2": 0.22218237961483345,
+          "spots": 1700,
+          "held_out_sample": "GSM5702476_TD5"
+        },
+        {
+          "focal_r2": -0.22467442287332307,
+          "focal_plus_neighbourhood_r2": -0.09919028168442967,
+          "context_minus_focal_r2": 0.1254841411888934,
+          "spots": 3911,
+          "held_out_sample": "GSM5702477_TD6"
+        },
+        {
+          "focal_r2": -0.49714543798099875,
+          "focal_plus_neighbourhood_r2": -0.9505354681424898,
+          "context_minus_focal_r2": -0.45339003016149104,
+          "spots": 1760,
+          "held_out_sample": "GSM5702478_TD8"
+        }
+      ],
+      "mean_delta_r2": -0.17298270648731237,
+      "median_delta_r2": 0.07863575458228622,
+      "positive_samples": 4
+    }
+  },
+  "interpretation": "Multiscale lung-adapted held-out diagnostic; radius was not selected as a confirmatory result from these same samples."
+}

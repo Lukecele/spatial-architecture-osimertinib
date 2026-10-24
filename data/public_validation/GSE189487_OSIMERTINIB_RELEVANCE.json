@@ -1,0 +1,506 @@
+{
+  "accession": "GSE189487",
+  "cohort_type": "untreated LUAD progression spatial transcriptomics",
+  "osimertinib_response_measured": false,
+  "interpretation": "Candidate resistance-related transcriptional proxy audit only; not a drug-response or resistance validation.",
+  "samples": [
+    {
+      "sample": "GSM5702473_TD1",
+      "spots": 4095,
+      "radii": {
+        "55.0": {
+          "moran_emt_resistance": 0.0,
+          "moran_bypass_resistance": 0.0,
+          "moran_proliferation": 0.0,
+          "mean_neighbours": 0.0
+        },
+        "100.0": {
+          "moran_emt_resistance": 0.2949142671709801,
+          "moran_bypass_resistance": 0.25244150901562995,
+          "moran_proliferation": 0.3240014715846261,
+          "mean_neighbours": 1.726007326007326
+        },
+        "150.0": {
+          "moran_emt_resistance": 0.2655689766494458,
+          "moran_bypass_resistance": 0.24601240823069345,
+          "moran_proliferation": 0.3071974952358572,
+          "mean_neighbours": 5.862759462759462
+        },
+        "200.0": {
+          "moran_emt_resistance": 0.24798318977191125,
+          "moran_bypass_resistance": 0.23974148902837658,
+          "moran_proliferation": 0.29002881700413874,
+          "mean_neighbours": 13.122832722832722
+        },
+        "300.0": {
+          "moran_emt_resistance": 0.228958110929486,
+          "moran_bypass_resistance": 0.23420861975798707,
+          "moran_proliferation": 0.27597277164687156,
+          "mean_neighbours": 29.974603174603175
+        },
+        "500.0": {
+          "moran_emt_resistance": 0.20136751657120538,
+          "moran_bypass_resistance": 0.21219667670561626,
+          "moran_proliferation": 0.2529222891687209,
+          "mean_neighbours": 79.21465201465202
+        }
+      },
+      "module_genes": {
+        "egfr_axis": [
+          "EGFR",
+          "ERBB2",
+          "ERBB3",
+          "MET"
+        ],
+        "bypass_resistance": [
+          "MET",
+          "AXL",
+          "FGFR1",
+          "IGF1R",
+          "ERBB2"
+        ],
+        "emt_resistance": [
+          "VIM",
+          "AXL",
+          "CDH2",
+          "ZEB1",
+          "SNAI1",
+          "SNAI2"
+        ],
+        "stem_like": [
+          "ALDH1A1",
+          "SOX2",
+          "PROM1",
+          "CD44"
+        ],
+        "proliferation": [
+          "MKI67",
+          "PCNA",
+          "TOP2A",
+          "CDK1"
+        ],
+        "epithelial_alveolar": [
+          "EPCAM",
+          "KRT8",
+          "SCGB1A1",
+          "SFTPC"
+        ]
+      }
+    },
+    {
+      "sample": "GSM5702474_TD2",
+      "spots": 4992,
+      "radii": {
+        "55.0": {
+          "moran_emt_resistance": 0.0,
+          "moran_bypass_resistance": 0.0,
+          "moran_proliferation": 0.0,
+          "mean_neighbours": 0.0
+        },
+        "100.0": {
+          "moran_emt_resistance": 0.1492324543149599,
+          "moran_bypass_resistance": 0.09112558138889944,
+          "moran_proliferation": -0.004562125763977774,
+          "mean_neighbours": 2.1802884615384617
+        },
+        "150.0": {
+          "moran_emt_resistance": 0.16152458835569197,
+          "moran_bypass_resistance": 0.09536886478165015,
+          "moran_proliferation": 0.014689743916688149,
+          "mean_neighbours": 5.886618589743589
+        },
+        "200.0": {
+          "moran_emt_resistance": 0.14243799763938358,
+          "moran_bypass_resistance": 0.08869008316412377,
+          "moran_proliferation": 0.019197393814890547,
+          "mean_neighbours": 13.320112179487179
+        },
+        "300.0": {
+          "moran_emt_resistance": 0.12478768947681028,
+          "moran_bypass_resistance": 0.08168832998672045,
+          "moran_proliferation": 0.01783179665006405,
+          "mean_neighbours": 30.373397435897434
+        },
+        "500.0": {
+          "moran_emt_resistance": 0.09846433592451136,
+          "moran_bypass_resistance": 0.06697906443775427,
+          "moran_proliferation": 0.01332097723569954,
+          "mean_neighbours": 80.24238782051282
+        }
+      },
+      "module_genes": {
+        "egfr_axis": [
+          "EGFR",
+          "ERBB2",
+          "ERBB3",
+          "MET"
+        ],
+        "bypass_resistance": [
+          "MET",
+          "AXL",
+          "FGFR1",
+          "IGF1R",
+          "ERBB2"
+        ],
+        "emt_resistance": [
+          "VIM",
+          "AXL",
+          "CDH2",
+          "ZEB1",
+          "SNAI1",
+          "SNAI2"
+        ],
+        "stem_like": [
+          "ALDH1A1",
+          "SOX2",
+          "PROM1",
+          "CD44"
+        ],
+        "proliferation": [
+          "MKI67",
+          "PCNA",
+          "TOP2A",
+          "CDK1"
+        ],
+        "epithelial_alveolar": [
+          "EPCAM",
+          "KRT8",
+          "SCGB1A1",
+          "SFTPC"
+        ]
+      }
+    },
+    {
+      "sample": "GSM5702475_TD3",
+      "spots": 1140,
+      "radii": {
+        "55.0": {
+          "moran_emt_resistance": 0.0,
+          "moran_bypass_resistance": 0.0,
+          "moran_proliferation": 0.0,
+          "mean_neighbours": 0.0
+        },
+        "100.0": {
+          "moran_emt_resistance": 0.07487622345469135,
+          "moran_bypass_resistance": 0.09480786083656231,
+          "moran_proliferation": 0.0688714447142557,
+          "mean_neighbours": 1.5736842105263158
+        },
+        "150.0": {
+          "moran_emt_resistance": 0.07442661502677303,
+          "moran_bypass_resistance": 0.10023765779554236,
+          "moran_proliferation": 0.05550062109016294,
+          "mean_neighbours": 5.47719298245614
+        },
+        "200.0": {
+          "moran_emt_resistance": 0.06875731215670572,
+          "moran_bypass_resistance": 0.07671253986812959,
+          "moran_proliferation": 0.025479027937705227,
+          "mean_neighbours": 11.933333333333334
+        },
+        "300.0": {
+          "moran_emt_resistance": 0.05988846013901837,
+          "moran_bypass_resistance": 0.059892884081792115,
+          "moran_proliferation": 0.018853311056265462,
+          "mean_neighbours": 26.647368421052633
+        },
+        "500.0": {
+          "moran_emt_resistance": 0.0361725849975332,
+          "moran_bypass_resistance": 0.045136676916511374,
+          "moran_proliferation": 0.011988975946254449,
+          "mean_neighbours": 67.23508771929825
+        }
+      },
+      "module_genes": {
+        "egfr_axis": [
+          "EGFR",
+          "ERBB2",
+          "ERBB3",
+          "MET"
+        ],
+        "bypass_resistance": [
+          "MET",
+          "AXL",
+          "FGFR1",
+          "IGF1R",
+          "ERBB2"
+        ],
+        "emt_resistance": [
+          "VIM",
+          "AXL",
+          "CDH2",
+          "ZEB1",
+          "SNAI1",
+          "SNAI2"
+        ],
+        "stem_like": [
+          "ALDH1A1",
+          "SOX2",
+          "PROM1",
+          "CD44"
+        ],
+        "proliferation": [
+          "MKI67",
+          "PCNA",
+          "TOP2A",
+          "CDK1"
+        ],
+        "epithelial_alveolar": [
+          "EPCAM",
+          "KRT8",
+          "SCGB1A1",
+          "SFTPC"
+        ]
+      }
+    },
+    {
+      "sample": "GSM5702476_TD5",
+      "spots": 1700,
+      "radii": {
+        "55.0": {
+          "moran_emt_resistance": 0.0,
+          "moran_bypass_resistance": 0.0,
+          "moran_proliferation": 0.0,
+          "mean_neighbours": 0.0
+        },
+        "100.0": {
+          "moran_emt_resistance": 0.17618215698318127,
+          "moran_bypass_resistance": 0.12497414635641615,
+          "moran_proliferation": 0.020787062743971067,
+          "mean_neighbours": 1.2611764705882353
+        },
+        "150.0": {
+          "moran_emt_resistance": 0.2156404550454923,
+          "moran_bypass_resistance": 0.1328058918220902,
+          "moran_proliferation": 0.030285772826829566,
+          "mean_neighbours": 5.455294117647059
+        },
+        "200.0": {
+          "moran_emt_resistance": 0.1944187300218993,
+          "moran_bypass_resistance": 0.11201661255922378,
+          "moran_proliferation": 0.01153253636951,
+          "mean_neighbours": 11.990588235294117
+        },
+        "300.0": {
+          "moran_emt_resistance": 0.16587862633858025,
+          "moran_bypass_resistance": 0.09926480497156319,
+          "moran_proliferation": 0.007891142325393232,
+          "mean_neighbours": 26.263529411764704
+        },
+        "500.0": {
+          "moran_emt_resistance": 0.14088652547167502,
+          "moran_bypass_resistance": 0.07506410064362078,
+          "moran_proliferation": 0.010175893155867003,
+          "mean_neighbours": 66.10941176470588
+        }
+      },
+      "module_genes": {
+        "egfr_axis": [
+          "EGFR",
+          "ERBB2",
+          "ERBB3",
+          "MET"
+        ],
+        "bypass_resistance": [
+          "MET",
+          "AXL",
+          "FGFR1",
+          "IGF1R",
+          "ERBB2"
+        ],
+        "emt_resistance": [
+          "VIM",
+          "AXL",
+          "CDH2",
+          "ZEB1",
+          "SNAI1",
+          "SNAI2"
+        ],
+        "stem_like": [
+          "ALDH1A1",
+          "SOX2",
+          "PROM1",
+          "CD44"
+        ],
+        "proliferation": [
+          "MKI67",
+          "PCNA",
+          "TOP2A",
+          "CDK1"
+        ],
+        "epithelial_alveolar": [
+          "EPCAM",
+          "KRT8",
+          "SCGB1A1",
+          "SFTPC"
+        ]
+      }
+    },
+    {
+      "sample": "GSM5702477_TD6",
+      "spots": 3911,
+      "radii": {
+        "55.0": {
+          "moran_emt_resistance": 0.0,
+          "moran_bypass_resistance": 0.0,
+          "moran_proliferation": 0.0,
+          "mean_neighbours": 0.0
+        },
+        "100.0": {
+          "moran_emt_resistance": 0.1846290653884689,
+          "moran_bypass_resistance": 0.06047915712317288,
+          "moran_proliferation": 0.017946243003709342,
+          "mean_neighbours": 2.0373306059831244
+        },
+        "150.0": {
+          "moran_emt_resistance": 0.16836487027794403,
+          "moran_bypass_resistance": 0.057183237924593185,
+          "moran_proliferation": 0.019562816538083568,
+          "mean_neighbours": 5.8056762976220915
+        },
+        "200.0": {
+          "moran_emt_resistance": 0.13326868540959697,
+          "moran_bypass_resistance": 0.05093798755411009,
+          "moran_proliferation": 0.01459999986305097,
+          "mean_neighbours": 13.243160317054462
+        },
+        "300.0": {
+          "moran_emt_resistance": 0.10361279986182971,
+          "moran_bypass_resistance": 0.03840825424130721,
+          "moran_proliferation": 0.012097073285904796,
+          "mean_neighbours": 29.89107645103554
+        },
+        "500.0": {
+          "moran_emt_resistance": 0.07972135039381592,
+          "moran_bypass_resistance": 0.025020193920525326,
+          "moran_proliferation": 0.005090005339959443,
+          "mean_neighbours": 78.20046024034774
+        }
+      },
+      "module_genes": {
+        "egfr_axis": [
+          "EGFR",
+          "ERBB2",
+          "ERBB3",
+          "MET"
+        ],
+        "bypass_resistance": [
+          "MET",
+          "AXL",
+          "FGFR1",
+          "IGF1R",
+          "ERBB2"
+        ],
+        "emt_resistance": [
+          "VIM",
+          "AXL",
+          "CDH2",
+          "ZEB1",
+          "SNAI1",
+          "SNAI2"
+        ],
+        "stem_like": [
+          "ALDH1A1",
+          "SOX2",
+          "PROM1",
+          "CD44"
+        ],
+        "proliferation": [
+          "MKI67",
+          "PCNA",
+          "TOP2A",
+          "CDK1"
+        ],
+        "epithelial_alveolar": [
+          "EPCAM",
+          "KRT8",
+          "SCGB1A1",
+          "SFTPC"
+        ]
+      }
+    },
+    {
+      "sample": "GSM5702478_TD8",
+      "spots": 1760,
+      "radii": {
+        "55.0": {
+          "moran_emt_resistance": 0.0,
+          "moran_bypass_resistance": 0.0,
+          "moran_proliferation": 0.0,
+          "mean_neighbours": 0.0
+        },
+        "100.0": {
+          "moran_emt_resistance": 0.3740766650829348,
+          "moran_bypass_resistance": 0.03890382297284192,
+          "moran_proliferation": 0.0075444271514012425,
+          "mean_neighbours": 1.4
+        },
+        "150.0": {
+          "moran_emt_resistance": 0.3550296279161961,
+          "moran_bypass_resistance": 0.08252681564303176,
+          "moran_proliferation": 0.015605681479876371,
+          "mean_neighbours": 5.625
+        },
+        "200.0": {
+          "moran_emt_resistance": 0.3244684703318936,
+          "moran_bypass_resistance": 0.05957234399997252,
+          "moran_proliferation": 0.005031373417789755,
+          "mean_neighbours": 12.451136363636364
+        },
+        "300.0": {
+          "moran_emt_resistance": 0.295556692361511,
+          "moran_bypass_resistance": 0.04540332638903193,
+          "moran_proliferation": 0.003430560711118273,
+          "mean_neighbours": 28.0625
+        },
+        "500.0": {
+          "moran_emt_resistance": 0.2553616413655176,
+          "moran_bypass_resistance": 0.03978709911702247,
+          "moran_proliferation": 0.0031961360302307775,
+          "mean_neighbours": 73.16022727272727
+        }
+      },
+      "module_genes": {
+        "egfr_axis": [
+          "EGFR",
+          "ERBB2",
+          "ERBB3",
+          "MET"
+        ],
+        "bypass_resistance": [
+          "MET",
+          "AXL",
+          "FGFR1",
+          "IGF1R",
+          "ERBB2"
+        ],
+        "emt_resistance": [
+          "VIM",
+          "AXL",
+          "CDH2",
+          "ZEB1",
+          "SNAI1",
+          "SNAI2"
+        ],
+        "stem_like": [
+          "ALDH1A1",
+          "SOX2",
+          "PROM1",
+          "CD44"
+        ],
+        "proliferation": [
+          "MKI67",
+          "PCNA",
+          "TOP2A",
+          "CDK1"
+        ],
+        "epithelial_alveolar": [
+          "EPCAM",
+          "KRT8",
+          "SCGB1A1",
+          "SFTPC"
+        ]
+      }
+    }
+  ]
+}

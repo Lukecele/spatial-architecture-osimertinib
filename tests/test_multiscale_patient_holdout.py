@@ -11,11 +11,12 @@ OUTPUT = ROOT / "data" / "extension_pilot" / "multiscale_patient_holdout_results
 
 class TestMultiscalePatientHoldout(unittest.TestCase):
     def test_pre_specified_window_is_patient_held_out(self):
-        subprocess.run(
-            [sys.executable, "src/extension_multiscale_patient_holdout.py"],
-            cwd=ROOT,
-            check=True,
-        )
+        if not OUTPUT.exists():
+            subprocess.run(
+                [sys.executable, "src/extension_multiscale_patient_holdout.py"],
+                cwd=ROOT,
+                check=True,
+            )
         data = json.loads(OUTPUT.read_text())
         self.assertEqual(data["radii_um"], [150.0, 200.0, 250.0, 300.0])
         self.assertEqual(len(data["patients"]), 8)

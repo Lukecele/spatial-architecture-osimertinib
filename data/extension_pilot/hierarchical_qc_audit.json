@@ -1,0 +1,160 @@
+{
+  "rows": [
+    {
+      "patient": "P10",
+      "sample": "P10_B1",
+      "baseline_r2": -0.044194374595938335,
+      "game_r2": -0.016065544278395683,
+      "game_minus_baseline_r2": 0.028128830317542652
+    },
+    {
+      "patient": "P10",
+      "sample": "P10_T1",
+      "baseline_r2": -0.005201772740015098,
+      "game_r2": -0.006390736107977579,
+      "game_minus_baseline_r2": -0.0011889633679624811
+    },
+    {
+      "patient": "P11",
+      "sample": "P11_B1",
+      "baseline_r2": -0.02487166843791222,
+      "game_r2": -0.0076078698894697094,
+      "game_minus_baseline_r2": 0.01726379854844251
+    },
+    {
+      "patient": "P11",
+      "sample": "P11_T1",
+      "baseline_r2": 0.08509250981213279,
+      "game_r2": 0.08649322087049105,
+      "game_minus_baseline_r2": 0.0014007110583582616
+    },
+    {
+      "patient": "P15",
+      "sample": "P15_B1",
+      "baseline_r2": -0.03953408150882387,
+      "game_r2": -0.019288159733514165,
+      "game_minus_baseline_r2": 0.020245921775309705
+    },
+    {
+      "patient": "P15",
+      "sample": "P15_T1",
+      "baseline_r2": -0.005037520963752762,
+      "game_r2": -0.000695782794940758,
+      "game_minus_baseline_r2": 0.004341738168812004
+    },
+    {
+      "patient": "P16",
+      "sample": "P16_B1",
+      "baseline_r2": -0.241734732471947,
+      "game_r2": -0.14572024394410654,
+      "game_minus_baseline_r2": 0.09601448852784045
+    },
+    {
+      "patient": "P16",
+      "sample": "P16_T1",
+      "baseline_r2": -0.0118245395885348,
+      "game_r2": -0.017544007670925232,
+      "game_minus_baseline_r2": -0.005719468082390433
+    },
+    {
+      "patient": "P17",
+      "sample": "P17_B1",
+      "baseline_r2": -0.017489027848199834,
+      "game_r2": -0.010268109341453169,
+      "game_minus_baseline_r2": 0.007220918506746665
+    },
+    {
+      "patient": "P17",
+      "sample": "P17_T1",
+      "baseline_r2": 0.06077048255675033,
+      "game_r2": 0.03953886635908466,
+      "game_minus_baseline_r2": -0.02123161619766567
+    },
+    {
+      "patient": "P19",
+      "sample": "P19_B1",
+      "baseline_r2": -0.11058981247264765,
+      "game_r2": -0.12154933838231674,
+      "game_minus_baseline_r2": -0.010959525909669088
+    },
+    {
+      "patient": "P19",
+      "sample": "P19_T1",
+      "baseline_r2": 0.03536979736978885,
+      "game_r2": -0.044664885419765765,
+      "game_minus_baseline_r2": -0.08003468278955461
+    },
+    {
+      "patient": "P24",
+      "sample": "P24_B1",
+      "baseline_r2": -0.011052798173912137,
+      "game_r2": -0.0014035569960926253,
+      "game_minus_baseline_r2": 0.009649241177819512
+    },
+    {
+      "patient": "P24",
+      "sample": "P24_T1",
+      "baseline_r2": 0.04310542931456185,
+      "game_r2": 0.016240852287235374,
+      "game_minus_baseline_r2": -0.026864577027326475
+    },
+    {
+      "patient": "P25",
+      "sample": "P25_B1",
+      "baseline_r2": -0.03441473621310398,
+      "game_r2": -0.023084422807956084,
+      "game_minus_baseline_r2": 0.011330313405147896
+    },
+    {
+      "patient": "P25",
+      "sample": "P25_T1",
+      "baseline_r2": -0.054396268269855774,
+      "game_r2": -0.04076820218247157,
+      "game_minus_baseline_r2": 0.013628066087384205
+    }
+  ],
+  "patient_summary": [
+    {
+      "patient": "P10",
+      "mean_delta_r2": 0.013469933474790086
+    },
+    {
+      "patient": "P11",
+      "mean_delta_r2": 0.009332254803400386
+    },
+    {
+      "patient": "P15",
+      "mean_delta_r2": 0.012293829972060855
+    },
+    {
+      "patient": "P16",
+      "mean_delta_r2": 0.04514751022272501
+    },
+    {
+      "patient": "P17",
+      "mean_delta_r2": -0.0070053488454595025
+    },
+    {
+      "patient": "P19",
+      "mean_delta_r2": -0.04549710434961185
+    },
+    {
+      "patient": "P24",
+      "mean_delta_r2": -0.008607667924753482
+    },
+    {
+      "patient": "P25",
+      "mean_delta_r2": 0.01247918974626605
+    }
+  ],
+  "mean_patient_delta_r2": 0.003951574637427194,
+  "bootstrap_95ci_mean_delta_r2": [
+    -0.01288566222185137,
+    0.019936199820837417
+  ],
+  "covariates": [
+    "log_median_umi",
+    "log_median_detected_features"
+  ],
+  "method": "patient-held-out ridge audit with QC covariates; not a full random-effects mixed model"
+}

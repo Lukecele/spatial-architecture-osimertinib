@@ -1,0 +1,120 @@
+{
+  "accession": "GSE301973",
+  "cohort": "four pretreatment EGFR-mutant NSCLC patients",
+  "osimertinib_response_measured": false,
+  "slides": [
+    {
+      "slide": "A",
+      "cells": 45661,
+      "genes": 18111,
+      "spatial_dimensions": [
+        45661,
+        2
+      ],
+      "spatial_range": {
+        "min": [
+          6738.495302675685,
+          9677.59654203159
+        ],
+        "max": [
+          20869.610908458115,
+          22442.09278292483
+        ]
+      },
+      "cell_type_counts": {
+        "Tumor cell": 12982,
+        "Alveolar epithelial cell": 2355,
+        "Endothelial cell": 12255,
+        "Myeloid cell": 1951,
+        "Plasmablast": 6556,
+        "Lymphocyte": 3676,
+        "Stromal cell": 5836,
+        "Airway epithelial cell": 50
+      },
+      "marker_presence": {
+        "EGFR": true,
+        "MET": true,
+        "AXL": true,
+        "FGFR1": true,
+        "IGF1R": true,
+        "VIM": true,
+        "CDH2": true,
+        "ZEB1": true,
+        "SNAI1": true,
+        "SNAI2": true,
+        "ALDH1A1": true,
+        "SOX2": true,
+        "PROM1": true,
+        "CD44": true,
+        "SPP1": true,
+        "MKI67": true,
+        "PCNA": true,
+        "TOP2A": true,
+        "CDK1": true,
+        "EPCAM": true,
+        "KRT8": true,
+        "SCGB1A1": true,
+        "SFTPC": true,
+        "COL1A1": true,
+        "FAP": true
+      }
+    },
+    {
+      "slide": "C",
+      "cells": 165630,
+      "genes": 18111,
+      "spatial_dimensions": [
+        165630,
+        2
+      ],
+      "spatial_range": {
+        "min": [
+          2268.5959455981565,
+          1697.2026923700357
+        ],
+        "max": [
+          20123.625813838138,
+          19538.704519189716
+        ]
+      },
+      "cell_type_counts": {
+        "Tumor cell": 83938,
+        "Stromal cell": 9883,
+        "Plasmablast": 20379,
+        "Endothelial cell": 32876,
+        "Lymphocyte": 10787,
+        "Airway epithelial cell": 1798,
+        "Alveolar epithelial cell": 790,
+        "Myeloid cell": 5179
+      },
+      "marker_presence": {
+        "EGFR": true,
+        "MET": true,
+        "AXL": true,
+        "FGFR1": true,
+        "IGF1R": true,
+        "VIM": true,
+        "CDH2": true,
+        "ZEB1": true,
+        "SNAI1": true,
+        "SNAI2": true,
+        "ALDH1A1": true,
+        "SOX2": true,
+        "PROM1": true,
+        "CD44": true,
+        "SPP1": true,
+        "MKI67": true,
+        "PCNA": true,
+        "TOP2A": true,
+        "CDK1": true,
+        "EPCAM": true,
+        "KRT8": true,
+        "SCGB1A1": true,
+        "SFTPC": true,
+        "COL1A1": true,
+        "FAP": true
+      }
+    }
+  ],
+  "metadata_boundary": "PFS groups are available at patient level; treatment is pretreatment. PFS association is exploratory because n=4."
+}

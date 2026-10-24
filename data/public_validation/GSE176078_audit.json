@@ -1,0 +1,330 @@
+{
+  "accession": "GSE176078",
+  "samples": [
+    {
+      "sample": "1142243F",
+      "patient_ids": [
+        "1142243F"
+      ],
+      "subtypes": [
+        "TNBC"
+      ],
+      "metadata_rows": 4784,
+      "spatial_rows": 4992,
+      "metadata_spatial_barcode_overlap": 4784,
+      "matrix_shape_genes_by_spots": [
+        28402,
+        4784
+      ],
+      "marker_presence": {
+        "tumour_state": [
+          "EPCAM",
+          "KRT8",
+          "KRT18",
+          "KRT5",
+          "TP63",
+          "VIM",
+          "AXL",
+          "CDH2"
+        ],
+        "outcome": [
+          "MKI67",
+          "PCNA",
+          "TOP2A",
+          "CDK1"
+        ],
+        "hypoxia": [
+          "HIF1A",
+          "VEGFA",
+          "CA9"
+        ],
+        "vascular": [
+          "PECAM1",
+          "VWF"
+        ]
+      },
+      "classification_counts": {
+        "Artefact": 119,
+        "Invasive cancer + stroma + lymphocytes": 3627,
+        "Lymphocytes": 15,
+        "Necrosis": 568,
+        "Stroma": 445,
+        "TLS": 10
+      }
+    },
+    {
+      "sample": "1160920F",
+      "patient_ids": [
+        "1160920F"
+      ],
+      "subtypes": [
+        "TNBC"
+      ],
+      "metadata_rows": 4895,
+      "spatial_rows": 4992,
+      "metadata_spatial_barcode_overlap": 4895,
+      "matrix_shape_genes_by_spots": [
+        28402,
+        4895
+      ],
+      "marker_presence": {
+        "tumour_state": [
+          "EPCAM",
+          "KRT8",
+          "KRT18",
+          "KRT5",
+          "TP63",
+          "VIM",
+          "AXL",
+          "CDH2"
+        ],
+        "outcome": [
+          "MKI67",
+          "PCNA",
+          "TOP2A",
+          "CDK1"
+        ],
+        "hypoxia": [
+          "HIF1A",
+          "VEGFA",
+          "CA9"
+        ],
+        "vascular": [
+          "PECAM1",
+          "VWF"
+        ]
+      },
+      "classification_counts": {
+        "": 1,
+        "Adipose tissue": 83,
+        "Artefact": 48,
+        "Cancer trapped in lymphocyte aggregation": 9,
+        "DCIS": 12,
+        "Invasive cancer + stroma + lymphocytes": 3146,
+        "Lymphocytes": 186,
+        "Normal glands + lymphocytes": 278,
+        "Stroma": 1132
+      }
+    },
+    {
+      "sample": "CID4290",
+      "patient_ids": [
+        "CID4290"
+      ],
+      "subtypes": [
+        "ER"
+      ],
+      "metadata_rows": 2432,
+      "spatial_rows": 4992,
+      "metadata_spatial_barcode_overlap": 2432,
+      "matrix_shape_genes_by_spots": [
+        19237,
+        2432
+      ],
+      "marker_presence": {
+        "tumour_state": [
+          "EPCAM",
+          "KRT8",
+          "KRT18",
+          "KRT5",
+          "TP63",
+          "VIM",
+          "AXL",
+          "CDH2"
+        ],
+        "outcome": [
+          "MKI67",
+          "PCNA",
+          "TOP2A",
+          "CDK1"
+        ],
+        "hypoxia": [
+          "HIF1A",
+          "VEGFA",
+          "CA9"
+        ],
+        "vascular": [
+          "PECAM1",
+          "VWF"
+        ]
+      },
+      "classification_counts": {
+        "Artefact": 7,
+        "Invasive cancer + stroma": 2082,
+        "Invasive cancer + stroma + lymphocytes": 215,
+        "NA": 6,
+        "Stroma": 122
+      }
+    },
+    {
+      "sample": "CID4465",
+      "patient_ids": [
+        "CID4465"
+      ],
+      "subtypes": [
+        "TNBC"
+      ],
+      "metadata_rows": 1211,
+      "spatial_rows": 4992,
+      "metadata_spatial_barcode_overlap": 1211,
+      "matrix_shape_genes_by_spots": [
+        19237,
+        1211
+      ],
+      "marker_presence": {
+        "tumour_state": [
+          "EPCAM",
+          "KRT8",
+          "KRT18",
+          "KRT5",
+          "TP63",
+          "VIM",
+          "AXL",
+          "CDH2"
+        ],
+        "outcome": [
+          "MKI67",
+          "PCNA",
+          "TOP2A",
+          "CDK1"
+        ],
+        "hypoxia": [
+          "HIF1A",
+          "VEGFA",
+          "CA9"
+        ],
+        "vascular": [
+          "PECAM1",
+          "VWF"
+        ]
+      },
+      "classification_counts": {
+        "Artefact": 4,
+        "Invasive cancer + stroma + lymphocytes": 1131,
+        "Normal duct": 3,
+        "Stroma": 73
+      }
+    },
+    {
+      "sample": "CID44971",
+      "patient_ids": [
+        "CID44971"
+      ],
+      "subtypes": [
+        "TNBC"
+      ],
+      "metadata_rows": 1162,
+      "spatial_rows": 4992,
+      "metadata_spatial_barcode_overlap": 1162,
+      "matrix_shape_genes_by_spots": [
+        19237,
+        1162
+      ],
+      "marker_presence": {
+        "tumour_state": [
+          "EPCAM",
+          "KRT8",
+          "KRT18",
+          "KRT5",
+          "TP63",
+          "VIM",
+          "AXL",
+          "CDH2"
+        ],
+        "outcome": [
+          "MKI67",
+          "PCNA",
+          "TOP2A",
+          "CDK1"
+        ],
+        "hypoxia": [
+          "HIF1A",
+          "VEGFA",
+          "CA9"
+        ],
+        "vascular": [
+          "PECAM1",
+          "VWF"
+        ]
+      },
+      "classification_counts": {
+        "Artefact": 1,
+        "DCIS": 273,
+        "Invasive cancer + lymphocytes": 317,
+        "Lymphocytes": 81,
+        "NA": 2,
+        "Normal + stroma + lymphocytes": 240,
+        "Stroma": 134,
+        "Stroma + adipose tissue": 114
+      }
+    },
+    {
+      "sample": "CID4535",
+      "patient_ids": [
+        "CID4535"
+      ],
+      "subtypes": [
+        "ER"
+      ],
+      "metadata_rows": 1127,
+      "spatial_rows": 4992,
+      "metadata_spatial_barcode_overlap": 1127,
+      "matrix_shape_genes_by_spots": [
+        19237,
+        1127
+      ],
+      "marker_presence": {
+        "tumour_state": [
+          "EPCAM",
+          "KRT8",
+          "KRT18",
+          "KRT5",
+          "TP63",
+          "VIM",
+          "AXL",
+          "CDH2"
+        ],
+        "outcome": [
+          "MKI67",
+          "PCNA",
+          "TOP2A",
+          "CDK1"
+        ],
+        "hypoxia": [
+          "HIF1A",
+          "VEGFA",
+          "CA9"
+        ],
+        "vascular": [
+          "PECAM1",
+          "VWF"
+        ]
+      },
+      "classification_counts": {
+        "": 1,
+        "Adipose tissue": 8,
+        "Artefact": 23,
+        "Invasive cancer": 418,
+        "Invasive cancer + adipose tissue + lymphocytes": 3,
+        "Invasive cancer + lymphocytes": 361,
+        "Lymphocytes": 69,
+        "NA": 2,
+        "Stroma": 169,
+        "Uncertain": 73
+      }
+    }
+  ],
+  "unique_patient_ids": [
+    "1142243F",
+    "1160920F",
+    "CID4290",
+    "CID4465",
+    "CID44971",
+    "CID4535"
+  ],
+  "limitations": [
+    "GEO raw human sequencing files are controlled; this audit uses public processed matrices.",
+    "Patient-level validation requires grouping all sections from the same donor.",
+    "Marker presence does not validate biological state or causality."
+  ]
+}

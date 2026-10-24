@@ -1,0 +1,722 @@
+{
+  "radii_um": [
+    150.0,
+    200.0,
+    250.0,
+    300.0
+  ],
+  "patients": [
+    "P10",
+    "P11",
+    "P15",
+    "P16",
+    "P17",
+    "P19",
+    "P24",
+    "P25"
+  ],
+  "samples": [
+    "P10_B1",
+    "P10_T1",
+    "P11_B1",
+    "P11_T1",
+    "P15_B1",
+    "P15_T1",
+    "P16_B1",
+    "P16_T1",
+    "P17_B1",
+    "P17_T1",
+    "P19_B1",
+    "P19_T1",
+    "P24_B1",
+    "P24_T1",
+    "P25_B1",
+    "P25_T1"
+  ],
+  "rows": [
+    {
+      "radius_um": 150.0,
+      "held_out_patient": "P10",
+      "sample": "P10_B1",
+      "spots": 1755,
+      "median_nearest_neighbor_px": 220.0,
+      "composition_r2": -0.023208544793500208,
+      "game_r2": -0.003295785483297786,
+      "game_minus_composition_r2": 0.01991275931020242
+    },
+    {
+      "radius_um": 150.0,
+      "held_out_patient": "P10",
+      "sample": "P10_T1",
+      "spots": 2200,
+      "median_nearest_neighbor_px": 219.0,
+      "composition_r2": -0.00669825258810075,
+      "game_r2": -0.01039424793070065,
+      "game_minus_composition_r2": -0.0036959953425999004
+    },
+    {
+      "radius_um": 150.0,
+      "held_out_patient": "P11",
+      "sample": "P11_B1",
+      "spots": 2873,
+      "median_nearest_neighbor_px": 220.0,
+      "composition_r2": -0.035953690748719236,
+      "game_r2": -0.021139118895146858,
+      "game_minus_composition_r2": 0.014814571853572378
+    },
+    {
+      "radius_um": 150.0,
+      "held_out_patient": "P11",
+      "sample": "P11_T1",
+      "spots": 1110,
+      "median_nearest_neighbor_px": 219.0,
+      "composition_r2": 0.08273427295616886,
+      "game_r2": 0.08342096126201648,
+      "game_minus_composition_r2": 0.0006866883058476159
+    },
+    {
+      "radius_um": 150.0,
+      "held_out_patient": "P15",
+      "sample": "P15_B1",
+      "spots": 2844,
+      "median_nearest_neighbor_px": 219.0,
+      "composition_r2": -0.02514536335642803,
+      "game_r2": -0.008703263945265771,
+      "game_minus_composition_r2": 0.01644209941116226
+    },
+    {
+      "radius_um": 150.0,
+      "held_out_patient": "P15",
+      "sample": "P15_T1",
+      "spots": 2624,
+      "median_nearest_neighbor_px": 226.00221237855172,
+      "composition_r2": -0.013144508196416327,
+      "game_r2": -0.0022732582467710483,
+      "game_minus_composition_r2": 0.010871249949645279
+    },
+    {
+      "radius_um": 150.0,
+      "held_out_patient": "P16",
+      "sample": "P16_B1",
+      "spots": 3123,
+      "median_nearest_neighbor_px": 219.91361940543837,
+      "composition_r2": -0.05650403928557446,
+      "game_r2": -0.01866543078689542,
+      "game_minus_composition_r2": 0.03783860849867904
+    },
+    {
+      "radius_um": 150.0,
+      "held_out_patient": "P16",
+      "sample": "P16_T1",
+      "spots": 2262,
+      "median_nearest_neighbor_px": 226.0,
+      "composition_r2": -0.014277263041535981,
+      "game_r2": -0.02016076221839569,
+      "game_minus_composition_r2": -0.005883499176859708
+    },
+    {
+      "radius_um": 150.0,
+      "held_out_patient": "P17",
+      "sample": "P17_B1",
+      "spots": 1522,
+      "median_nearest_neighbor_px": 220.0,
+      "composition_r2": -0.009604026532959775,
+      "game_r2": -0.0017815520842210386,
+      "game_minus_composition_r2": 0.007822474448738737
+    },
+    {
+      "radius_um": 150.0,
+      "held_out_patient": "P17",
+      "sample": "P17_T1",
+      "spots": 2658,
+      "median_nearest_neighbor_px": 226.00221237855172,
+      "composition_r2": 0.06549474861988203,
+      "game_r2": 0.0518290674767552,
+      "game_minus_composition_r2": -0.013665681143126829
+    },
+    {
+      "radius_um": 150.0,
+      "held_out_patient": "P19",
+      "sample": "P19_B1",
+      "spots": 2197,
+      "median_nearest_neighbor_px": 219.0,
+      "composition_r2": -0.12504908917640356,
+      "game_r2": -0.14428803213827424,
+      "game_minus_composition_r2": -0.019238942961870675
+    },
+    {
+      "radius_um": 150.0,
+      "held_out_patient": "P19",
+      "sample": "P19_T1",
+      "spots": 2512,
+      "median_nearest_neighbor_px": 226.0,
+      "composition_r2": 0.047654999843964374,
+      "game_r2": 0.0073214962925467475,
+      "game_minus_composition_r2": -0.04033350355141763
+    },
+    {
+      "radius_um": 150.0,
+      "held_out_patient": "P24",
+      "sample": "P24_B1",
+      "spots": 2581,
+      "median_nearest_neighbor_px": 219.0,
+      "composition_r2": -0.005948685613635263,
+      "game_r2": 0.0008233211777268767,
+      "game_minus_composition_r2": 0.0067720067913621396
+    },
+    {
+      "radius_um": 150.0,
+      "held_out_patient": "P24",
+      "sample": "P24_T1",
+      "spots": 3426,
+      "median_nearest_neighbor_px": 219.91361940543837,
+      "composition_r2": 0.04738187866298249,
+      "game_r2": 0.023490105458270905,
+      "game_minus_composition_r2": -0.023891773204711586
+    },
+    {
+      "radius_um": 150.0,
+      "held_out_patient": "P25",
+      "sample": "P25_B1",
+      "spots": 1965,
+      "median_nearest_neighbor_px": 220.0,
+      "composition_r2": -0.031659703487312285,
+      "game_r2": -0.02363080675014939,
+      "game_minus_composition_r2": 0.008028896737162894
+    },
+    {
+      "radius_um": 150.0,
+      "held_out_patient": "P25",
+      "sample": "P25_T1",
+      "spots": 1308,
+      "median_nearest_neighbor_px": 219.5449840010015,
+      "composition_r2": -0.05166085754411043,
+      "game_r2": -0.0385297026873721,
+      "game_minus_composition_r2": 0.013131154856738325
+    },
+    {
+      "radius_um": 200.0,
+      "held_out_patient": "P10",
+      "sample": "P10_B1",
+      "spots": 1755,
+      "median_nearest_neighbor_px": 220.0,
+      "composition_r2": -0.026800795379946507,
+      "game_r2": -0.0025581361546909154,
+      "game_minus_composition_r2": 0.02424265922525559
+    },
+    {
+      "radius_um": 200.0,
+      "held_out_patient": "P10",
+      "sample": "P10_T1",
+      "spots": 2200,
+      "median_nearest_neighbor_px": 219.0,
+      "composition_r2": -0.00884416074230776,
+      "game_r2": -0.013528196593239894,
+      "game_minus_composition_r2": -0.004684035850932133
+    },
+    {
+      "radius_um": 200.0,
+      "held_out_patient": "P11",
+      "sample": "P11_B1",
+      "spots": 2873,
+      "median_nearest_neighbor_px": 220.0,
+      "composition_r2": -0.036937093663647724,
+      "game_r2": -0.017475233994477923,
+      "game_minus_composition_r2": 0.0194618596691698
+    },
+    {
+      "radius_um": 200.0,
+      "held_out_patient": "P11",
+      "sample": "P11_T1",
+      "spots": 1110,
+      "median_nearest_neighbor_px": 219.0,
+      "composition_r2": 0.07955265451417282,
+      "game_r2": 0.08133531748639944,
+      "game_minus_composition_r2": 0.001782662972226623
+    },
+    {
+      "radius_um": 200.0,
+      "held_out_patient": "P15",
+      "sample": "P15_B1",
+      "spots": 2844,
+      "median_nearest_neighbor_px": 219.0,
+      "composition_r2": -0.02795344698798874,
+      "game_r2": -0.00792316910452251,
+      "game_minus_composition_r2": 0.02003027788346623
+    },
+    {
+      "radius_um": 200.0,
+      "held_out_patient": "P15",
+      "sample": "P15_T1",
+      "spots": 2624,
+      "median_nearest_neighbor_px": 226.00221237855172,
+      "composition_r2": -0.013278824636332232,
+      "game_r2": -0.0008108570407159288,
+      "game_minus_composition_r2": 0.012467967595616303
+    },
+    {
+      "radius_um": 200.0,
+      "held_out_patient": "P16",
+      "sample": "P16_B1",
+      "spots": 3123,
+      "median_nearest_neighbor_px": 219.91361940543837,
+      "composition_r2": -0.06645777372494721,
+      "game_r2": -0.020260104043029026,
+      "game_minus_composition_r2": 0.046197669681918185
+    },
+    {
+      "radius_um": 200.0,
+      "held_out_patient": "P16",
+      "sample": "P16_T1",
+      "spots": 2262,
+      "median_nearest_neighbor_px": 226.0,
+      "composition_r2": -0.01741776752431945,
+      "game_r2": -0.026794396369899554,
+      "game_minus_composition_r2": -0.009376628845580104
+    },
+    {
+      "radius_um": 200.0,
+      "held_out_patient": "P17",
+      "sample": "P17_B1",
+      "spots": 1522,
+      "median_nearest_neighbor_px": 220.0,
+      "composition_r2": -0.011676837124697359,
+      "game_r2": -0.0046845683402478855,
+      "game_minus_composition_r2": 0.0069922687844494735
+    },
+    {
+      "radius_um": 200.0,
+      "held_out_patient": "P17",
+      "sample": "P17_T1",
+      "spots": 2658,
+      "median_nearest_neighbor_px": 226.00221237855172,
+      "composition_r2": 0.06381376752526591,
+      "game_r2": 0.054276747096748124,
+      "game_minus_composition_r2": -0.009537020428517784
+    },
+    {
+      "radius_um": 200.0,
+      "held_out_patient": "P19",
+      "sample": "P19_B1",
+      "spots": 2197,
+      "median_nearest_neighbor_px": 219.0,
+      "composition_r2": -0.12483750991818354,
+      "game_r2": -0.14188978407173258,
+      "game_minus_composition_r2": -0.01705227415354904
+    },
+    {
+      "radius_um": 200.0,
+      "held_out_patient": "P19",
+      "sample": "P19_T1",
+      "spots": 2512,
+      "median_nearest_neighbor_px": 226.0,
+      "composition_r2": 0.047754381099704424,
+      "game_r2": 0.0022416460265505256,
+      "game_minus_composition_r2": -0.0455127350731539
+    },
+    {
+      "radius_um": 200.0,
+      "held_out_patient": "P24",
+      "sample": "P24_B1",
+      "spots": 2581,
+      "median_nearest_neighbor_px": 219.0,
+      "composition_r2": -0.007712767149146149,
+      "game_r2": -0.001050527700569015,
+      "game_minus_composition_r2": 0.006662239448577134
+    },
+    {
+      "radius_um": 200.0,
+      "held_out_patient": "P24",
+      "sample": "P24_T1",
+      "spots": 3426,
+      "median_nearest_neighbor_px": 219.91361940543837,
+      "composition_r2": 0.047050668442691235,
+      "game_r2": 0.021238921674375022,
+      "game_minus_composition_r2": -0.025811746768316213
+    },
+    {
+      "radius_um": 200.0,
+      "held_out_patient": "P25",
+      "sample": "P25_B1",
+      "spots": 1965,
+      "median_nearest_neighbor_px": 220.0,
+      "composition_r2": -0.03046322989208594,
+      "game_r2": -0.01799525920656664,
+      "game_minus_composition_r2": 0.012467970685519303
+    },
+    {
+      "radius_um": 200.0,
+      "held_out_patient": "P25",
+      "sample": "P25_T1",
+      "spots": 1308,
+      "median_nearest_neighbor_px": 219.5449840010015,
+      "composition_r2": -0.050054004837986055,
+      "game_r2": -0.03591378222693109,
+      "game_minus_composition_r2": 0.014140222611054964
+    },
+    {
+      "radius_um": 250.0,
+      "held_out_patient": "P10",
+      "sample": "P10_B1",
+      "spots": 1755,
+      "median_nearest_neighbor_px": 220.0,
+      "composition_r2": -0.02841122123498896,
+      "game_r2": -0.002448207826570181,
+      "game_minus_composition_r2": 0.025963013408418778
+    },
+    {
+      "radius_um": 250.0,
+      "held_out_patient": "P10",
+      "sample": "P10_T1",
+      "spots": 2200,
+      "median_nearest_neighbor_px": 219.0,
+      "composition_r2": -0.009196584423243559,
+      "game_r2": -0.014777133958985278,
+      "game_minus_composition_r2": -0.005580549535741719
+    },
+    {
+      "radius_um": 250.0,
+      "held_out_patient": "P11",
+      "sample": "P11_B1",
+      "spots": 2873,
+      "median_nearest_neighbor_px": 220.0,
+      "composition_r2": -0.03721498806033052,
+      "game_r2": -0.017019829592703317,
+      "game_minus_composition_r2": 0.020195158467627206
+    },
+    {
+      "radius_um": 250.0,
+      "held_out_patient": "P11",
+      "sample": "P11_T1",
+      "spots": 1110,
+      "median_nearest_neighbor_px": 219.0,
+      "composition_r2": 0.07878978622155552,
+      "game_r2": 0.08081641714256449,
+      "game_minus_composition_r2": 0.002026630921008965
+    },
+    {
+      "radius_um": 250.0,
+      "held_out_patient": "P15",
+      "sample": "P15_B1",
+      "spots": 2844,
+      "median_nearest_neighbor_px": 219.0,
+      "composition_r2": -0.027995429169338726,
+      "game_r2": -0.006609955670185297,
+      "game_minus_composition_r2": 0.02138547349915343
+    },
+    {
+      "radius_um": 250.0,
+      "held_out_patient": "P15",
+      "sample": "P15_T1",
+      "spots": 2624,
+      "median_nearest_neighbor_px": 226.00221237855172,
+      "composition_r2": -0.014454997690593663,
+      "game_r2": -0.001347668523492107,
+      "game_minus_composition_r2": 0.013107329167101556
+    },
+    {
+      "radius_um": 250.0,
+      "held_out_patient": "P16",
+      "sample": "P16_B1",
+      "spots": 3123,
+      "median_nearest_neighbor_px": 219.91361940543837,
+      "composition_r2": -0.07006039238544681,
+      "game_r2": -0.02173847044564292,
+      "game_minus_composition_r2": 0.04832192193980389
+    },
+    {
+      "radius_um": 250.0,
+      "held_out_patient": "P16",
+      "sample": "P16_T1",
+      "spots": 2262,
+      "median_nearest_neighbor_px": 226.0,
+      "composition_r2": -0.018090105247020816,
+      "game_r2": -0.028747205758606897,
+      "game_minus_composition_r2": -0.010657100511586082
+    },
+    {
+      "radius_um": 250.0,
+      "held_out_patient": "P17",
+      "sample": "P17_B1",
+      "spots": 1522,
+      "median_nearest_neighbor_px": 220.0,
+      "composition_r2": -0.011042225145018625,
+      "game_r2": -0.005856820098998128,
+      "game_minus_composition_r2": 0.005185405046020497
+    },
+    {
+      "radius_um": 250.0,
+      "held_out_patient": "P17",
+      "sample": "P17_T1",
+      "spots": 2658,
+      "median_nearest_neighbor_px": 226.00221237855172,
+      "composition_r2": 0.06397567236107826,
+      "game_r2": 0.05586231470485292,
+      "game_minus_composition_r2": -0.00811335765622534
+    },
+    {
+      "radius_um": 250.0,
+      "held_out_patient": "P19",
+      "sample": "P19_B1",
+      "spots": 2197,
+      "median_nearest_neighbor_px": 219.0,
+      "composition_r2": -0.12760802659494086,
+      "game_r2": -0.142371106664819,
+      "game_minus_composition_r2": -0.014763080069878143
+    },
+    {
+      "radius_um": 250.0,
+      "held_out_patient": "P19",
+      "sample": "P19_T1",
+      "spots": 2512,
+      "median_nearest_neighbor_px": 226.0,
+      "composition_r2": 0.04764288799527994,
+      "game_r2": 0.0010664046217198075,
+      "game_minus_composition_r2": -0.04657648337356013
+    },
+    {
+      "radius_um": 250.0,
+      "held_out_patient": "P24",
+      "sample": "P24_B1",
+      "spots": 2581,
+      "median_nearest_neighbor_px": 219.0,
+      "composition_r2": -0.00828334201792269,
+      "game_r2": -0.0011653621759342148,
+      "game_minus_composition_r2": 0.0071179798419884754
+    },
+    {
+      "radius_um": 250.0,
+      "held_out_patient": "P24",
+      "sample": "P24_T1",
+      "spots": 3426,
+      "median_nearest_neighbor_px": 219.91361940543837,
+      "composition_r2": 0.04713120565492279,
+      "game_r2": 0.02018306800784464,
+      "game_minus_composition_r2": -0.026948137647078152
+    },
+    {
+      "radius_um": 250.0,
+      "held_out_patient": "P25",
+      "sample": "P25_B1",
+      "spots": 1965,
+      "median_nearest_neighbor_px": 220.0,
+      "composition_r2": -0.029952334901129918,
+      "game_r2": -0.01619753268300128,
+      "game_minus_composition_r2": 0.013754802218128637
+    },
+    {
+      "radius_um": 250.0,
+      "held_out_patient": "P25",
+      "sample": "P25_T1",
+      "spots": 1308,
+      "median_nearest_neighbor_px": 219.5449840010015,
+      "composition_r2": -0.04967312578959837,
+      "game_r2": -0.03629857929444258,
+      "game_minus_composition_r2": 0.013374546495155792
+    },
+    {
+      "radius_um": 300.0,
+      "held_out_patient": "P10",
+      "sample": "P10_B1",
+      "spots": 1755,
+      "median_nearest_neighbor_px": 220.0,
+      "composition_r2": -0.031352806186921045,
+      "game_r2": -0.0038374566890604367,
+      "game_minus_composition_r2": 0.02751534949786061
+    },
+    {
+      "radius_um": 300.0,
+      "held_out_patient": "P10",
+      "sample": "P10_T1",
+      "spots": 2200,
+      "median_nearest_neighbor_px": 219.0,
+      "composition_r2": -0.009542998537815706,
+      "game_r2": -0.015916638724478904,
+      "game_minus_composition_r2": -0.006373640186663199
+    },
+    {
+      "radius_um": 300.0,
+      "held_out_patient": "P11",
+      "sample": "P11_B1",
+      "spots": 2873,
+      "median_nearest_neighbor_px": 220.0,
+      "composition_r2": -0.038012265403796874,
+      "game_r2": -0.01698086033312385,
+      "game_minus_composition_r2": 0.021031405070673026
+    },
+    {
+      "radius_um": 300.0,
+      "held_out_patient": "P11",
+      "sample": "P11_T1",
+      "spots": 1110,
+      "median_nearest_neighbor_px": 219.0,
+      "composition_r2": 0.07701327297771388,
+      "game_r2": 0.08001333182176418,
+      "game_minus_composition_r2": 0.0030000588440503018
+    },
+    {
+      "radius_um": 300.0,
+      "held_out_patient": "P15",
+      "sample": "P15_B1",
+      "spots": 2844,
+      "median_nearest_neighbor_px": 219.0,
+      "composition_r2": -0.029237099236942177,
+      "game_r2": -0.006001403133587324,
+      "game_minus_composition_r2": 0.023235696103354853
+    },
+    {
+      "radius_um": 300.0,
+      "held_out_patient": "P15",
+      "sample": "P15_T1",
+      "spots": 2624,
+      "median_nearest_neighbor_px": 226.00221237855172,
+      "composition_r2": -0.015308888152629985,
+      "game_r2": -0.0013479978383190705,
+      "game_minus_composition_r2": 0.013960890314310914
+    },
+    {
+      "radius_um": 300.0,
+      "held_out_patient": "P16",
+      "sample": "P16_B1",
+      "spots": 3123,
+      "median_nearest_neighbor_px": 219.91361940543837,
+      "composition_r2": -0.07514757134412275,
+      "game_r2": -0.02476653799073225,
+      "game_minus_composition_r2": 0.0503810333533905
+    },
+    {
+      "radius_um": 300.0,
+      "held_out_patient": "P16",
+      "sample": "P16_T1",
+      "spots": 2262,
+      "median_nearest_neighbor_px": 226.0,
+      "composition_r2": -0.018280442018726584,
+      "game_r2": -0.029326411044807044,
+      "game_minus_composition_r2": -0.01104596902608046
+    },
+    {
+      "radius_um": 300.0,
+      "held_out_patient": "P17",
+      "sample": "P17_B1",
+      "spots": 1522,
+      "median_nearest_neighbor_px": 220.0,
+      "composition_r2": -0.010309816179471909,
+      "game_r2": -0.0040288071584348994,
+      "game_minus_composition_r2": 0.0062810090210370095
+    },
+    {
+      "radius_um": 300.0,
+      "held_out_patient": "P17",
+      "sample": "P17_T1",
+      "spots": 2658,
+      "median_nearest_neighbor_px": 226.00221237855172,
+      "composition_r2": 0.06407168591105683,
+      "game_r2": 0.05931076394331636,
+      "game_minus_composition_r2": -0.004760921967740472
+    },
+    {
+      "radius_um": 300.0,
+      "held_out_patient": "P19",
+      "sample": "P19_B1",
+      "spots": 2197,
+      "median_nearest_neighbor_px": 219.0,
+      "composition_r2": -0.12829099813267275,
+      "game_r2": -0.13316585478249054,
+      "game_minus_composition_r2": -0.004874856649817794
+    },
+    {
+      "radius_um": 300.0,
+      "held_out_patient": "P19",
+      "sample": "P19_T1",
+      "spots": 2512,
+      "median_nearest_neighbor_px": 226.0,
+      "composition_r2": 0.04758053458559308,
+      "game_r2": 0.004079726506237669,
+      "game_minus_composition_r2": -0.04350080807935541
+    },
+    {
+      "radius_um": 300.0,
+      "held_out_patient": "P24",
+      "sample": "P24_B1",
+      "spots": 2581,
+      "median_nearest_neighbor_px": 219.0,
+      "composition_r2": -0.009660151154297525,
+      "game_r2": -0.0011528641109455062,
+      "game_minus_composition_r2": 0.008507287043352019
+    },
+    {
+      "radius_um": 300.0,
+      "held_out_patient": "P24",
+      "sample": "P24_T1",
+      "spots": 3426,
+      "median_nearest_neighbor_px": 219.91361940543837,
+      "composition_r2": 0.047169891109914874,
+      "game_r2": 0.018541610711243828,
+      "game_minus_composition_r2": -0.028628280398671047
+    },
+    {
+      "radius_um": 300.0,
+      "held_out_patient": "P25",
+      "sample": "P25_B1",
+      "spots": 1965,
+      "median_nearest_neighbor_px": 220.0,
+      "composition_r2": -0.029312789996210453,
+      "game_r2": -0.012918059936654513,
+      "game_minus_composition_r2": 0.01639473005955594
+    },
+    {
+      "radius_um": 300.0,
+      "held_out_patient": "P25",
+      "sample": "P25_T1",
+      "spots": 1308,
+      "median_nearest_neighbor_px": 219.5449840010015,
+      "composition_r2": -0.049286722461225674,
+      "game_r2": -0.03549893316045827,
+      "game_minus_composition_r2": 0.013787789300767406
+    }
+  ],
+  "summary_by_radius_um": {
+    "150": {
+      "n_patients": 8,
+      "mean_patient_delta_r2": 0.0018506946739077976,
+      "median_patient_delta_r2": 0.007929506031755629,
+      "patients_with_positive_delta": 5,
+      "bootstrap_95ci_mean_delta_r2": [
+        -0.008870839709474367,
+        0.010532951880353757
+      ]
+    },
+    "200": {
+      "n_patients": 8,
+      "mean_patient_delta_r2": 0.0032794598398252772,
+      "median_patient_delta_r2": 0.01020078650392997,
+      "patients_with_positive_delta": 5,
+      "bootstrap_95ci_mean_delta_r2": [
+        -0.008505493446819612,
+        0.012857502664428823
+      ]
+    },
+    "250": {
+      "n_patients": 8,
+      "mean_patient_delta_r2": 0.003612097013146104,
+      "median_patient_delta_r2": 0.010651063315328307,
+      "patients_with_positive_delta": 5,
+      "bootstrap_95ci_mean_delta_r2": [
+        -0.008105237784244322,
+        0.013310639169232736
+      ]
+    },
+    "300": {
+      "n_patients": 8,
+      "mean_patient_delta_r2": 0.005306923268751512,
+      "median_patient_delta_r2": 0.011293293306480184,
+      "patients_with_positive_delta": 6,
+      "bootstrap_95ci_mean_delta_r2": [
+        -0.0052221584175597665,
+        0.014457956812244094
+      ]
+    }
+  },
+  "pre_specification": "150--300 um window selected before this patient-held-out analysis from the prior same-section multiscale scan",
+  "interpretation": "Patient-held-out exploratory validation; no radius is selected after inspecting these results."
+}

@@ -1,0 +1,71 @@
+{
+  "patients": [
+    {
+      "patient": "P10",
+      "n_samples": 2,
+      "mean_delta_r2": 0.008564964123142671,
+      "mean_game_r2": -0.00655216085788779,
+      "mean_composition_r2": -0.015117124981030461
+    },
+    {
+      "patient": "P11",
+      "n_samples": 2,
+      "mean_delta_r2": 0.006844049320986423,
+      "mean_game_r2": 0.03037752993073406,
+      "mean_composition_r2": 0.023533480609747637
+    },
+    {
+      "patient": "P15",
+      "n_samples": 2,
+      "mean_delta_r2": 0.013675974624464238,
+      "mean_game_r2": -0.005953930369957616,
+      "mean_composition_r2": -0.019629904994421854
+    },
+    {
+      "patient": "P16",
+      "n_samples": 2,
+      "mean_delta_r2": 0.0159832660623499,
+      "mean_game_r2": -0.020008584319012535,
+      "mean_composition_r2": -0.035991850381362434
+    },
+    {
+      "patient": "P17",
+      "n_samples": 2,
+      "mean_delta_r2": -0.0032439477844372067,
+      "mean_game_r2": 0.02484539421024473,
+      "mean_composition_r2": 0.028089341994681938
+    },
+    {
+      "patient": "P19",
+      "n_samples": 2,
+      "mean_delta_r2": -0.029532521753884988,
+      "mean_game_r2": -0.06937376534938083,
+      "mean_composition_r2": -0.039841243595495845
+    },
+    {
+      "patient": "P24",
+      "n_samples": 2,
+      "mean_delta_r2": -0.008490996516081817,
+      "mean_game_r2": 0.011755606777721528,
+      "mean_composition_r2": 0.020246603293803345
+    },
+    {
+      "patient": "P25",
+      "n_samples": 2,
+      "mean_delta_r2": 0.01098258193812418,
+      "mean_game_r2": -0.030405575966946152,
+      "mean_composition_r2": -0.04138815790507033
+    }
+  ],
+  "n_patients": 8,
+  "mean_patient_delta_r2": 0.001847921251832925,
+  "median_patient_delta_r2": 0.007704506722064547,
+  "patients_with_positive_delta": 5,
+  "bootstrap_95ci_mean_delta_r2": [
+    -0.008830551375966127,
+    0.010499983531268308
+  ],
+  "bootstrap_replicates": 10000,
+  "seed": 42,
+  "interpretation": "patient-level exploratory summary; not clinical validation and not evidence of causal payoff parameters"
+}

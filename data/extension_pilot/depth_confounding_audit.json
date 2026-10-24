@@ -1,0 +1,183 @@
+{
+  "rows": [
+    {
+      "held_out_patient": "P10",
+      "sample": "P10_B1",
+      "spots": 1755,
+      "composition_r2": -0.023082581029440608,
+      "game_r2": -0.0027629153666781647,
+      "game_minus_composition_r2": 0.020319665662762443,
+      "game_rmse": 0.11612365678511494,
+      "median_umi": 989.0,
+      "median_detected_features": 654.0
+    },
+    {
+      "held_out_patient": "P10",
+      "sample": "P10_T1",
+      "spots": 2200,
+      "composition_r2": -0.007151668932620314,
+      "game_r2": -0.010341406349097415,
+      "game_minus_composition_r2": -0.003189737416477101,
+      "game_rmse": 0.200030493929616,
+      "median_umi": 4434.0,
+      "median_detected_features": 2192.0
+    },
+    {
+      "held_out_patient": "P11",
+      "sample": "P11_B1",
+      "spots": 2873,
+      "composition_r2": -0.03566559905149935,
+      "game_r2": -0.021692572915844588,
+      "game_minus_composition_r2": 0.013973026135654765,
+      "game_rmse": 0.14640717246405824,
+      "median_umi": 1442.0,
+      "median_detected_features": 927.0
+    },
+    {
+      "held_out_patient": "P11",
+      "sample": "P11_T1",
+      "spots": 1110,
+      "composition_r2": 0.08273256027099463,
+      "game_r2": 0.08244763277731271,
+      "game_minus_composition_r2": -0.00028492749368191905,
+      "game_rmse": 0.3017074583127541,
+      "median_umi": 1822.5,
+      "median_detected_features": 1033.5
+    },
+    {
+      "held_out_patient": "P15",
+      "sample": "P15_B1",
+      "spots": 2844,
+      "composition_r2": -0.025858713039187187,
+      "game_r2": -0.009394656794427636,
+      "game_minus_composition_r2": 0.01646405624475955,
+      "game_rmse": 0.1136384365823277,
+      "median_umi": 3035.5,
+      "median_detected_features": 1507.5
+    },
+    {
+      "held_out_patient": "P15",
+      "sample": "P15_T1",
+      "spots": 2624,
+      "composition_r2": -0.013401096949656521,
+      "game_r2": -0.0025132039454875965,
+      "game_minus_composition_r2": 0.010887893004168925,
+      "game_rmse": 0.16459981642501537,
+      "median_umi": 5977.5,
+      "median_detected_features": 2544.0
+    },
+    {
+      "held_out_patient": "P16",
+      "sample": "P16_B1",
+      "spots": 3123,
+      "composition_r2": -0.058160204483926226,
+      "game_r2": -0.01899740823261209,
+      "game_minus_composition_r2": 0.039162796251314136,
+      "game_rmse": 0.09365386288220635,
+      "median_umi": 514.0,
+      "median_detected_features": 390.0
+    },
+    {
+      "held_out_patient": "P16",
+      "sample": "P16_T1",
+      "spots": 2262,
+      "composition_r2": -0.013823496278798642,
+      "game_r2": -0.02101976040541298,
+      "game_minus_composition_r2": -0.007196264126614338,
+      "game_rmse": 0.21089248130353147,
+      "median_umi": 4333.0,
+      "median_detected_features": 1959.5
+    },
+    {
+      "held_out_patient": "P17",
+      "sample": "P17_B1",
+      "spots": 1522,
+      "composition_r2": -0.009399251843284384,
+      "game_r2": -0.002337638673793885,
+      "game_minus_composition_r2": 0.007061613169490499,
+      "game_rmse": 0.12450575316061993,
+      "median_umi": 921.5,
+      "median_detected_features": 591.0
+    },
+    {
+      "held_out_patient": "P17",
+      "sample": "P17_T1",
+      "spots": 2658,
+      "composition_r2": 0.06557793583264826,
+      "game_r2": 0.05202842709428335,
+      "game_minus_composition_r2": -0.013549508738364913,
+      "game_rmse": 0.27698115392223704,
+      "median_umi": 11850.0,
+      "median_detected_features": 3731.0
+    },
+    {
+      "held_out_patient": "P19",
+      "sample": "P19_B1",
+      "spots": 2197,
+      "composition_r2": -0.12649935329897488,
+      "game_r2": -0.14482321754029703,
+      "game_minus_composition_r2": -0.018323864241322152,
+      "game_rmse": 0.09348175311320372,
+      "median_umi": 651.0,
+      "median_detected_features": 486.0
+    },
+    {
+      "held_out_patient": "P19",
+      "sample": "P19_T1",
+      "spots": 2512,
+      "composition_r2": 0.04681686610798319,
+      "game_r2": 0.006075686841535366,
+      "game_minus_composition_r2": -0.040741179266447825,
+      "game_rmse": 0.29168526562508085,
+      "median_umi": 6045.5,
+      "median_detected_features": 2654.5
+    },
+    {
+      "held_out_patient": "P24",
+      "sample": "P24_B1",
+      "spots": 2581,
+      "composition_r2": -0.0071091310843114375,
+      "game_r2": 7.559598348771956e-05,
+      "game_minus_composition_r2": 0.007184727067799157,
+      "game_rmse": 0.14887904330218446,
+      "median_umi": 2751.0,
+      "median_detected_features": 1422.0
+    },
+    {
+      "held_out_patient": "P24",
+      "sample": "P24_T1",
+      "spots": 3426,
+      "composition_r2": 0.04760233767191813,
+      "game_r2": 0.023435617571955336,
+      "game_minus_composition_r2": -0.02416672009996279,
+      "game_rmse": 0.33289388368263484,
+      "median_umi": 3342.0,
+      "median_detected_features": 1507.0
+    },
+    {
+      "held_out_patient": "P25",
+      "sample": "P25_B1",
+      "spots": 1965,
+      "composition_r2": -0.03123227598568623,
+      "game_r2": -0.02294295527298984,
+      "game_minus_composition_r2": 0.00828932071269639,
+      "game_rmse": 0.15040209840177035,
+      "median_umi": 2158.0,
+      "median_detected_features": 1165.0
+    },
+    {
+      "held_out_patient": "P25",
+      "sample": "P25_T1",
+      "spots": 1308,
+      "composition_r2": -0.051544039824454435,
+      "game_r2": -0.037868196660902465,
+      "game_minus_composition_r2": 0.01367584316355197,
+      "game_rmse": 0.20401664593939187,
+      "median_umi": 5005.5,
+      "median_detected_features": 2333.5
+    }
+  ],
+  "correlation_depth_delta_r2": -0.4260891339385327,
+  "correlation_detected_features_delta_r2": -0.44602480499195185,
+  "interpretation": "diagnostic association only; sequencing depth is not randomized and this does not establish or remove biological confounding"
+}

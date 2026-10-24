@@ -1,0 +1,92 @@
+{
+  "accession": "GSE176078",
+  "radius_um": 150.0,
+  "marker_spec": {
+    "positive": [
+      "EPCAM",
+      "KRT8",
+      "CDH1"
+    ],
+    "resistant": [
+      "VIM",
+      "CDH2",
+      "AXL"
+    ],
+    "caf": [
+      "ACTA2",
+      "COL1A1",
+      "FAP"
+    ],
+    "outcome": [
+      "MKI67",
+      "PCNA",
+      "TOP2A",
+      "CDK1"
+    ],
+    "hypoxia": [
+      "HIF1A",
+      "VEGFA",
+      "CA9"
+    ],
+    "vascular": [
+      "PECAM1",
+      "VWF"
+    ]
+  },
+  "excluded_classifications": [
+    "Artefact",
+    "Necrosis"
+  ],
+  "patients": [
+    {
+      "focal_r2": -0.23025008975364258,
+      "focal_plus_neighbourhood_r2": -0.15621444695410225,
+      "held_out_patient": "1142243F",
+      "spots": 4097,
+      "context_minus_focal_r2": 0.07403564279954034
+    },
+    {
+      "focal_r2": -0.08280220256465576,
+      "focal_plus_neighbourhood_r2": -0.12069128734572887,
+      "held_out_patient": "1160920F",
+      "spots": 4847,
+      "context_minus_focal_r2": -0.03788908478107311
+    },
+    {
+      "focal_r2": -3.16259153592282,
+      "focal_plus_neighbourhood_r2": -2.7760030337786326,
+      "held_out_patient": "CID4290",
+      "spots": 2425,
+      "context_minus_focal_r2": 0.3865885021441873
+    },
+    {
+      "focal_r2": -0.6219713189105402,
+      "focal_plus_neighbourhood_r2": -1.4045819612834172,
+      "held_out_patient": "CID4465",
+      "spots": 1207,
+      "context_minus_focal_r2": -0.7826106423728769
+    },
+    {
+      "focal_r2": -0.0017463080410284881,
+      "focal_plus_neighbourhood_r2": 0.0048241103056333445,
+      "held_out_patient": "CID44971",
+      "spots": 1161,
+      "context_minus_focal_r2": 0.006570418346661833
+    },
+    {
+      "focal_r2": -0.1397478852799643,
+      "focal_plus_neighbourhood_r2": -0.17366417815636392,
+      "held_out_patient": "CID4535",
+      "spots": 1104,
+      "context_minus_focal_r2": -0.033916292876399634
+    }
+  ],
+  "mean_patient_delta_r2": -0.06453690945666003,
+  "median_patient_delta_r2": -0.0136729372648689,
+  "patients_with_positive_delta": 3,
+  "bootstrap_95ci_mean_delta_r2": [
+    -0.39027147834531495,
+    0.18983167504158097
+  ],
+  "interpretation": "Patient-held-out exploratory validation using public processed matrices; not causal or clinical validation."
+}
