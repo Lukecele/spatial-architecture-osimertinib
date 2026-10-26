@@ -6,12 +6,17 @@
 [![Python 3.9+](https://img.shields.io/badge/python-3.9+-blue.svg)](https://www.python.org/downloads/)
 [![Resolution: 2 µm](https://img.shields.io/badge/Resolution-2_µm_(Visium_HD)-purple.svg)](https://www.10xgenomics.com/products/visium-hd-spatial-gene-expression)
 [![Status: Peer-Review Ready](https://img.shields.io/badge/Status-Peer--Review_Ready-emerald.svg)](manuscript/MANUSCRIPT_SPATIAL_ARCHITECTURE_OSIMERTINIB.pdf)
+[![Interactive Web Portal](https://img.shields.io/badge/Web%20Portal-Live%20Demo-brightgreen.svg)](https://lukecele.github.io/spatial-architecture-osimertinib/)
 
 **Author & Principal Investigator:** Luca Celebrano  
 **Affiliation:** Department of Clinical Medicine and Surgery, School of Medicine, University of Naples Federico II, Naples, Italy  
 **Correspondence:** `l.celebrano@studenti.unina.it` | **ORCID:** [0009-0007-0931-3555](https://orcid.org/0009-0007-0931-3555)  
 **Classification:** Independent Scientific Research • Subcellular Spatial Omics & Biophysical Oncology  
-**Manuscript PDF:** [MANUSCRIPT_SPATIAL_ARCHITECTURE_OSIMERTINIB.pdf](manuscript/MANUSCRIPT_SPATIAL_ARCHITECTURE_OSIMERTINIB.pdf)
+**Manuscript PDF:** [MANUSCRIPT_SPATIAL_ARCHITECTURE_OSIMERTINIB.pdf](manuscript/MANUSCRIPT_SPATIAL_ARCHITECTURE_OSIMERTINIB.pdf)  
+**Live Interactive Portal:** [https://lukecele.github.io/spatial-architecture-osimertinib/](https://lukecele.github.io/spatial-architecture-osimertinib/)
+
+> [!NOTE]
+> 🌐 **Interactive Scientific Portal:** Explore the live 10x Visium HD spatial architecture and subcellular transport interactive portal at [lukecele.github.io/spatial-architecture-osimertinib/](https://lukecele.github.io/spatial-architecture-osimertinib/).
 
 > [!TIP]
 > **Support Open-Source Biophysical Oncology:**  
