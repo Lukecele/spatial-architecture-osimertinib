@@ -103,6 +103,20 @@ spatial-architecture-osimertinib/
 
 ---
 
+## 🚀 Quick Start & Reproducibility
+
+```bash
+git clone https://github.com/Lukecele/spatial-architecture-osimertinib.git
+cd spatial-architecture-osimertinib
+pip install -e .
+
+# Run instant quickstart verification
+./quickstart.sh
+# or: python3 src/analyze_gse301973_patient_pfs.py
+```
+
+---
+
 ## 📜 Citation & Authorship
 
 ```bibtex

@@ -1,5 +1,5 @@
 {
-  "input": "/home/luca/Scrivania/tutti i materiali/spatial-game-assay-study-merged/data/cache/clinical_pan_cancer_cache.npz",
+  "input": "/home/luca/progetti/spatial-oncology-suite/spatial-architecture-osimertinib/data/cache/clinical_pan_cancer_cache.npz",
   "measured_data_type": "cached gene-level spatial expression and coordinates; no microRNA counts and no methylome/CpG matrix",
   "cohort_feature_counts": {
     "breast": 22,
