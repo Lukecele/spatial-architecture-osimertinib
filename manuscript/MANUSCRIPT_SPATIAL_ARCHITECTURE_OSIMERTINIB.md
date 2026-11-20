@@ -2,8 +2,8 @@
 
 **Luca Celebrano**$^{1,*}$
 
-$^{1}$Department of Clinical Medicine and Surgery, School of Medicine, University of Naples Federico II, Via Sergio Pansini 5, 80131 Naples, Italy  
-$^*$Correspondence: `l.celebrano@studenti.unina.it` | ORCID: [0009-0007-0931-3555](https://orcid.org/0009-0007-0931-3555)  
+$^{1}$Independent Researcher, Naples, Italy  
+$^*$Correspondence: `luca.celebrano1@gmail.com` | ORCID: [0009-0007-0931-3555](https://orcid.org/0009-0007-0931-3555)  
 **Classification:** Independent Scientific Research • Spatial Computational Oncology & Clinical Pathophysiology  
 **Repository:** [https://github.com/Lukecele/spatial-architecture-osimertinib](https://github.com/Lukecele/spatial-architecture-osimertinib) • **DOI (Zenodo Archive):** [10.5281/zenodo.23620878](https://doi.org/10.5281/zenodo.23620878)
 

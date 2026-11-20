@@ -9,8 +9,8 @@
 [![Interactive Web Portal](https://img.shields.io/badge/Web%20Portal-Live%20Demo-brightgreen.svg)](https://lukecele.github.io/spatial-architecture-osimertinib/)
 
 **Author & Principal Investigator:** Luca Celebrano  
-**Affiliation:** Department of Clinical Medicine and Surgery, School of Medicine, University of Naples Federico II, Naples, Italy  
-**Correspondence:** `l.celebrano@studenti.unina.it` | **ORCID:** [0009-0007-0931-3555](https://orcid.org/0009-0007-0931-3555)  
+**Affiliation:** Independent Researcher, Naples, Italy  
+**Correspondence:** `luca.celebrano1@gmail.com` | **ORCID:** [0009-0007-0931-3555](https://orcid.org/0009-0007-0931-3555)  
 **Classification:** Independent Scientific Research • Subcellular Spatial Omics & Biophysical Oncology  
 **Manuscript PDF:** [MANUSCRIPT_SPATIAL_ARCHITECTURE_OSIMERTINIB.pdf](manuscript/MANUSCRIPT_SPATIAL_ARCHITECTURE_OSIMERTINIB.pdf)  
 **Live Interactive Portal:** [https://lukecele.github.io/spatial-architecture-osimertinib/](https://lukecele.github.io/spatial-architecture-osimertinib/)
@@ -127,7 +127,7 @@ pip install -e .
   year = {2026},
   url = {https://github.com/Lukecele/spatial-architecture-osimertinib},
   doi = {10.5281/zenodo.23620878},
-  institution = {Department of Clinical Medicine and Surgery, School of Medicine, University of Naples Federico II}
+  institution = {Department of Clinical Medicine and Surgery, Independent Researcher, Naples, Italy}
 }
 ```
 

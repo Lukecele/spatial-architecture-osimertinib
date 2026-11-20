@@ -9,7 +9,7 @@
   "anchors": {
     "melanoma_MITF_APAF1_resistance": {
       "cohort": "melanoma",
-      "source": "Carotenuto et al.; MITF/APAF-1 resistance axis",
+      "source": "Literature-derived MITF/APAF-1 resistance axis",
       "required_features": [
         "MITF",
         "APAF1"
@@ -24,7 +24,7 @@
     },
     "PDAC_miR1307_CLIC5_FOLFIRINOX": {
       "cohort": null,
-      "source": "Carotenuto et al.; miR-1307 and FOLFIRINOX response",
+      "source": "Literature-derived miR-1307 and drug response",
       "required_features": [
         "MIR1307",
         "CLIC5"
@@ -38,7 +38,7 @@
     },
     "biliary_miR181_SIRT1_drug_response": {
       "cohort": null,
-      "source": "Carotenuto et al.; miR-181/SIRT1 drug response",
+      "source": "Literature-derived miR-181/SIRT1 drug response",
       "required_features": [
         "MIR181A1",
         "SIRT1"

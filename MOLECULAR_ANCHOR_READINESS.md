@@ -1,6 +1,6 @@
 # Molecular-anchor readiness audit
 
-The proposed integration of Carotenuto-related microRNA and methylation
+The proposed integration of microRNA and epigenetic methylation
 evidence starts with an input audit rather than an inferred biological claim.
 The implementation is
 [`src/molecular_anchor_audit.py`](./src/molecular_anchor_audit.py), and its

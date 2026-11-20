@@ -19,19 +19,19 @@ ANCHORS = {
     "melanoma_MITF_APAF1_resistance": {
         "cohort": "melanoma",
         "required_transcripts": ["MITF", "APAF1"],
-        "source": "Carotenuto et al.; MITF/APAF-1 resistance axis",
+        "source": "Literature-derived MITF/APAF-1 resistance axis",
         "status_if_complete": "candidate spatial anchor, not causal validation",
     },
     "PDAC_miR1307_CLIC5_FOLFIRINOX": {
         "cohort": None,
         "required_transcripts": ["MIR1307", "CLIC5"],
-        "source": "Carotenuto et al.; miR-1307 and FOLFIRINOX response",
+        "source": "Literature-derived miR-1307 and drug response",
         "status_if_complete": "candidate molecular anchor, not present in current cohorts",
     },
     "biliary_miR181_SIRT1_drug_response": {
         "cohort": None,
         "required_transcripts": ["MIR181A1", "SIRT1"],
-        "source": "Carotenuto et al.; miR-181/SIRT1 drug response",
+        "source": "Literature-derived miR-181/SIRT1 drug response",
         "status_if_complete": "candidate molecular anchor, not present in current cohorts",
     },
 }
