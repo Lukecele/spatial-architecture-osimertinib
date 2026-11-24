@@ -1,7 +1,7 @@
 # Subcellular 10x Visium HD Spatial Architecture and Microvascular Decoupling in Osimertinib Resistance
 
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23620878.svg)](https://doi.org/10.5281/zenodo.23620878)
+[![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.24393476-blue)](https://doi.org/10.5281/zenodo.24393476)
 [![CI](https://github.com/Lukecele/spatial-architecture-osimertinib/actions/workflows/ci.yml/badge.svg)](https://github.com/Lukecele/spatial-architecture-osimertinib/actions/workflows/ci.yml)
 [![Python 3.9+](https://img.shields.io/badge/python-3.9+-blue.svg)](https://www.python.org/downloads/)
 [![Resolution: 2 µm](https://img.shields.io/badge/Resolution-2_µm_(Visium_HD)-purple.svg)](https://www.10xgenomics.com/products/visium-hd-spatial-gene-expression)
@@ -77,7 +77,7 @@ Tumors exhibiting high microvascular decoupling show immediate therapeutic escap
 This project constitutes the foundational biophysical cornerstone of a 4-part open-source scientific investigation:
 
 1. **[Study 1: InSituGame (Assay v1.0.6)](https://github.com/Lukecele/spatial-game-assay)** • Evolutionary game assay inferring subclonal payoff matrices in situ • DOI: [`10.5281/zenodo.23585216`](https://doi.org/10.5281/zenodo.23585216)
-2. **Study 2: Spatial Architecture (This Repository)** • 10x Visium HD subcellular architecture & $\lambda \approx 624\,\mu\text{m}$ transport barrier • DOI: [`10.5281/zenodo.23620878`](https://doi.org/10.5281/zenodo.23620878)
+2. **Study 2: Spatial Architecture (This Repository)** • 10x Visium HD subcellular architecture & $\lambda \approx 624\,\mu\text{m}$ transport barrier • DOI: [`10.5281/zenodo.23620878`](https://doi.org/10.5281/zenodo.24393476)
 3. **[Study 3: Massive Validation ($N = 854$)](https://github.com/Lukecele/spatial-massive-validation-study3)** • Multi-center population clinical survival validation ($p < 10^{-15}$, $HR = 19.45$) • DOI: [`10.5281/zenodo.23620887`](https://doi.org/10.5281/zenodo.23620887)
 4. **[Study 4: InSituVision-AI (< 5 €)](https://github.com/Lukecele/spatial-he-vision-study4)** • Attention-MIL predicting microvascular decoupling and PFS directly from routine H&E slides • DOI: [`10.5281/zenodo.23621924`](https://doi.org/10.5281/zenodo.23621924)
 
